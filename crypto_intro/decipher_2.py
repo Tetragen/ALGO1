@@ -1,0 +1,43 @@
+"""
+break the second ciphering solution
+"""
+
+from random import randrange
+
+max_number_of_attempts = 10000
+
+
+def decipher_2(text, key_size, extract):
+    """
+    from the coded message, find the original one based on an extract
+    """
+    print("code to decipher : " + str(code))
+    attempt = 0
+    decoded_message = ""
+    while extract not in decoded_message and attempt < max_number_of_attempts:
+        # try again
+        decoded_message = ""
+        # try a new key
+        attempt += 1
+        key = [randrange(1, 27) for i in range(key_size)]
+        subkey = 0
+        for character in text:
+            ascii_index = ord(character)
+            if ascii_index > 64 and ascii_index < 91:
+                decoded_message += chr((ascii_index -
+                                        65 + key[subkey]) % 26 + 65)
+                subkey = (subkey + 1) % key_size
+            else:
+                decoded_message += character
+        print('---\nattempt : ' + str(attempt))
+        print('key : ' + str(key))
+        print(decoded_message)
+    if extract in decoded_message:
+        print('success : key=' + str(key))
+    return decoded_message
+
+
+with open("crypted_messages/crypted_message_2.txt", 'r') as text_file:
+    code = text_file.read()
+
+decipher_2(code, 3, "COURSE")
