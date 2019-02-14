@@ -1,5 +1,5 @@
 """"
-    Build some paths arriving to destination 5
+    Build all paths arriving to destination 5
 """
 
 # import ipdb
