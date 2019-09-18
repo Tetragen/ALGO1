@@ -1,0 +1,13 @@
+         43 function calls in 0.758 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        6    0.404    0.067    0.404    0.067 {built-in method numpy.core.multiarray.matmul}
+       12    0.353    0.029    0.353    0.029 {method 'rand' of 'mtrand.RandomState' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       12    0.000    0.000    0.000    0.000 {built-in method time.time}
+        6    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
