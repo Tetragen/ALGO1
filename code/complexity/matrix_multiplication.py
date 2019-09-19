@@ -21,10 +21,10 @@ for n in matrix_sizes:
     print(n, computation_time)
 
 title = 'Computation time of matrix multiplication'
-file = 'matrix_multiplication.pdf'
+filename = 'matrix_multiplication.pdf'
 plt.plot(matrix_sizes, times, 'o')
 plt.xlabel('matrix size')
 plt.ylabel('computation time')
 plt.title(title)
-plt.savefig('images/' + file)
+plt.savefig('images/' + filename)
 plt.close()

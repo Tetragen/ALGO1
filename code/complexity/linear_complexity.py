@@ -27,7 +27,7 @@ for size in sizes:
 # log_sizes = [math.log(size) for size in sizes]
 
 title = 'Complexity of a sequence of multiplications'
-file = 'linear.pdf'
+filename = 'linear.pdf'
 # plt.plot(log_sizes, times, 'o')
 plt.plot(sizes, times, 'o')
 plt.xlabel('number of multiplications')
@@ -35,5 +35,5 @@ plt.ylabel('computation time (seconds)')
 plt.title(title)
 if not os.path.exists("./images/"):
     os.mkdir("./images")
-plt.savefig('images/' + file)
+plt.savefig('images/' + filename)
 plt.close()
