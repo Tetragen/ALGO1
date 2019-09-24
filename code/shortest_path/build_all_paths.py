@@ -19,7 +19,6 @@ paths = [[[0]]]
 
 for path_length in range(1, 6):
     print(f"building paths of length {path_length}")
-    # build paths of length length + 1
     new_paths = [path + [ngbrs] for path in paths[path_length - 1]
                  for ngbrs in neighboring_cities[path[-1]]]
     # append the paths to the list of paths
