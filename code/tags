@@ -1,0 +1,445 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Digraph	graphs/random_graphs/random_graph.py	/^from graphviz import Digraph$/;"	i
+Digraph	graphs/random_graphs/random_graph_minimalist.py	/^from graphviz import Digraph$/;"	i
+Graph	graphs/clique/clique_0.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_1.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_2.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_3.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_5.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_5_transform.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/clique/clique_transform.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/coloring/coloring_1.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/coloring/coloring_2.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/coloring/coloring_3.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/dominating_set/dominating_greedy.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/dominating_set/dominating_greedy_alternative.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/dominating_set/generate_graph.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/independent_set/independent_1.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/independent_set/independent_2.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/independent_set/independent_3.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/other_graphs/bipartite_graph.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/other_graphs/exercise_graph_1.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/other_graphs/exercise_graph_2.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/other_graphs/highlight_subset.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/random_graphs/random_graph.py	/^from graphviz import Graph$/;"	i
+Graph	graphs/random_graphs/random_graph_minimalist.py	/^from graphviz import Graph$/;"	i
+a	complexity/exponentiation_complexity.py	/^a = 5$/;"	v
+a	complexity/matrix_multiplication.py	/^    a = np.random.rand(n, n)$/;"	v
+a	complexity/profiling/profiling_demo.py	/^    a = step**2$/;"	v
+a	complexity/profiling/profiling_demo.py	/^a = 0$/;"	v
+a	complexity/profiling/profiling_demo_2.py	/^    a = np.random.rand(n, n)$/;"	v
+a	rsa/decipher_known_rsa.py	/^a = int(public_key_str.split(',')[1])$/;"	v
+a	rsa/decipher_unknown_rsa.py	/^a = int(public_key_str.split(',')[1])$/;"	v
+all_edges	graphs/clique/clique_5_transform.py	/^all_edges = [x for x in all_edges if len(x) > 1]$/;"	v
+all_edges	graphs/clique/clique_5_transform.py	/^all_edges = [{i, j} for i in range(1, 7) for j in range(i+1, 7)]$/;"	v
+all_edges	graphs/clique/clique_transform.py	/^all_edges = [x for x in all_edges if len(x) > 1]$/;"	v
+all_edges	graphs/clique/clique_transform.py	/^all_edges = [{i, j} for i in range(12) for j in range(i+1,12)]$/;"	v
+all_edges	graphs/random_graphs/random_graph.py	/^all_edges = [edge for edge in all_edges if len(edge) == 2]$/;"	v
+all_edges	graphs/random_graphs/random_graph.py	/^all_edges = [{i, j} for i in range(1, n + 1) for j in range(i + 1, n + 1)]$/;"	v
+all_edges	graphs/random_graphs/random_graph_minimalist.py	/^all_edges = [edge for edge in all_edges if len(edge) == 2]$/;"	v
+all_edges	graphs/random_graphs/random_graph_minimalist.py	/^all_edges = [{i, j} for i in range(1, n + 1) for j in range(i + 1, n + 1)]$/;"	v
+b	complexity/matrix_multiplication.py	/^    b = np.random.rand(n, n)$/;"	v
+b	complexity/profiling/profiling_demo.py	/^    b = np.random.rand(10, 10)$/;"	v
+b	complexity/profiling/profiling_demo_2.py	/^    b = np.random.rand(n, n)$/;"	v
+b	rsa/decipher_known_rsa.py	/^b = int(private_key_str)$/;"	v
+bad_fibonacci	complexity/profiling/profiling_demo_3.py	/^def bad_fibonacci(n):$/;"	f
+bad_fibonacci	recursion/bad_fibonacci.py	/^def bad_fibonacci(n):$/;"	f
+badrec	recursion/bad_recursion.py	/^def badrec(x):$/;"	f
+c	complexity/matrix_multiplication.py	/^    c = np.matmul(a, b)$/;"	v
+c	complexity/profiling/profiling_demo.py	/^    c = np.matmul(b, d)$/;"	v
+c	complexity/profiling/profiling_demo_2.py	/^    c = np.matmul(a, b)$/;"	v
+c	shortest_path/all_shortest_paths.py	/^                c = shortest_paths[neighbor]$/;"	v
+c	shortest_path/one_shortest_path.py	/^                c = one_shortest_path[neighbor]$/;"	v
+cProfile	complexity/profiling/profiling_demo.py	/^import cProfile$/;"	i
+cProfile	complexity/profiling/profiling_demo_2.py	/^import cProfile$/;"	i
+cProfile	complexity/profiling/profiling_demo_3.py	/^import cProfile$/;"	i
+cProfile	crypto_intro/decipher_1.py	/^import cProfile$/;"	i
+cipher	crypto_intro/cipher_1.py	/^def cipher(message):$/;"	f
+cipher_2	crypto_intro/cipher_2.py	/^def cipher_2(message, key_size):$/;"	f
+cipher_rsa	rsa/rsa_functions.py	/^def cipher_rsa(text, public_key):$/;"	f
+clique	graphs/clique/clique_1.py	/^clique = [1, 5, 6, 11]$/;"	v
+clique	graphs/clique/clique_2.py	/^clique = [1, 5, 6]$/;"	v
+clique	graphs/clique/clique_3.py	/^clique = [3, 8]$/;"	v
+clique	graphs/clique/clique_5.py	/^clique = [2, 3, 4]$/;"	v
+clique	graphs/clique/clique_5_transform.py	/^clique = [2, 3, 4]$/;"	v
+code	crypto_intro/decipher_1.py	/^    code = text_file.read()$/;"	v
+code	crypto_intro/decipher_2.py	/^    code = text_file.read()$/;"	v
+code	rsa/cipher_rsa.py	/^code = rsa_functions.cipher_rsa(text, public_key)$/;"	v
+code	rsa/decipher_known_rsa.py	/^    code = code_txt.read()$/;"	v
+code	rsa/decipher_unknown_rsa.py	/^    code = code_txt.read()$/;"	v
+color	graphs/clique/clique_0.py	/^             color='cornflowerblue',$/;"	v
+color	graphs/clique/clique_1.py	/^             color='cornflowerblue',$/;"	v
+color	graphs/clique/clique_1.py	/^             color='crimson',$/;"	v
+color	graphs/clique/clique_2.py	/^             color='cornflowerblue',$/;"	v
+color	graphs/clique/clique_2.py	/^             color='crimson',$/;"	v
+color	graphs/clique/clique_3.py	/^             color='cornflowerblue',$/;"	v
+color	graphs/clique/clique_3.py	/^             color='crimson',$/;"	v
+color	graphs/clique/clique_5.py	/^             color='cornflowerblue',$/;"	v
+color	graphs/clique/clique_5.py	/^             color='crimson',$/;"	v
+color	graphs/clique/clique_5_transform.py	/^             color='crimson',$/;"	v
+color	graphs/clique/clique_5_transform.py	/^             color='forestgreen',$/;"	v
+color	graphs/clique/clique_transform.py	/^             color='forestgreen',$/;"	v
+color	graphs/coloring/coloring_1.py	/^             color='black',$/;"	v
+color	graphs/coloring/coloring_1.py	/^    color = color[1]$/;"	v
+color	graphs/coloring/coloring_2.py	/^             color='black',$/;"	v
+color	graphs/coloring/coloring_2.py	/^    color = color[1]$/;"	v
+color	graphs/coloring/coloring_3.py	/^             color='black',$/;"	v
+color	graphs/coloring/coloring_3.py	/^    color = color[1]$/;"	v
+color	graphs/independent_set/independent_1.py	/^             color='aquamarine4',$/;"	v
+color	graphs/independent_set/independent_1.py	/^             color='black',$/;"	v
+color	graphs/independent_set/independent_2.py	/^             color='aquamarine4',$/;"	v
+color	graphs/independent_set/independent_2.py	/^             color='black',$/;"	v
+color	graphs/independent_set/independent_3.py	/^             color='aquamarine4',$/;"	v
+color	graphs/independent_set/independent_3.py	/^             color='black',$/;"	v
+color	graphs/other_graphs/bipartite_graph.py	/^             color='darkolivegreen4',$/;"	v
+color	graphs/other_graphs/exercise_graph_1.py	/^             color='darkolivegreen4',$/;"	v
+color	graphs/other_graphs/exercise_graph_2.py	/^             color='darkolivegreen4',$/;"	v
+color	graphs/other_graphs/highlight_subset.py	/^                 color='darkolivegreen4',$/;"	v
+color	graphs/other_graphs/highlight_subset.py	/^             color='darkolivegreen4',$/;"	v
+color	graphs/random_graphs/random_graph.py	/^             color=some_color,$/;"	v
+color	graphs/random_graphs/random_graph_minimalist.py	/^             color='darkolivegreen4',$/;"	v
+color_1	graphs/coloring/coloring_1.py	/^color_1 = [1, 6, 8]$/;"	v
+color_1	graphs/coloring/coloring_2.py	/^color_1 = [1, 6, 8]$/;"	v
+color_1	graphs/coloring/coloring_3.py	/^color_1 = [1, 8]$/;"	v
+color_2	graphs/coloring/coloring_1.py	/^color_2 = [2, 3, 5]$/;"	v
+color_2	graphs/coloring/coloring_2.py	/^color_2 = [3, 5]$/;"	v
+color_2	graphs/coloring/coloring_3.py	/^color_2 = [3, 5]$/;"	v
+color_3	graphs/coloring/coloring_1.py	/^color_3 = [4, 7]$/;"	v
+color_3	graphs/coloring/coloring_2.py	/^color_3 = [4, 7]$/;"	v
+color_3	graphs/coloring/coloring_3.py	/^color_3 = [4, 7]$/;"	v
+color_4	graphs/coloring/coloring_2.py	/^color_4 = [2]$/;"	v
+color_4	graphs/coloring/coloring_3.py	/^color_4 = [2, 6]$/;"	v
+color_set	graphs/coloring/coloring_1.py	/^def color_set(node_set, color, dot):$/;"	f
+color_set	graphs/coloring/coloring_2.py	/^def color_set(node_set, color, dot):$/;"	f
+color_set	graphs/coloring/coloring_3.py	/^def color_set(node_set, color, dot):$/;"	f
+coloring	graphs/coloring/coloring_1.py	/^coloring = [(color_1, 'darkorchid4'),$/;"	v
+coloring	graphs/coloring/coloring_2.py	/^coloring = [(color_1, 'darkorchid4'),$/;"	v
+coloring	graphs/coloring/coloring_3.py	/^coloring = [(color_1, 'darkorchid4'),$/;"	v
+colors	graphs/random_graphs/random_graph.py	/^colors = ['black', 'aquamarine4', 'goldenrod3', 'darkorchid4']$/;"	v
+complementary_edges	graphs/clique/clique_5_transform.py	/^complementary_edges = [x for x in all_edges if x not in edges]$/;"	v
+complementary_edges	graphs/clique/clique_transform.py	/^complementary_edges = [x for x in all_edges if x not in edges]$/;"	v
+computation_time	complexity/matrix_multiplication.py	/^    computation_time = time() - t0$/;"	v
+computation_time	complexity/profiling/profiling_demo_2.py	/^    computation_time = time.time() - t0$/;"	v
+count	rsa/rsa_functions.py	/^from itertools import count, islice$/;"	i
+counters	complexity/dec_to_bin.py	/^counters = []$/;"	v
+d	complexity/profiling/profiling_demo.py	/^    d = b + 1$/;"	v
+dec2bin	complexity/dec_to_bin.py	/^def dec2bin(n):$/;"	f
+decipher_1	crypto_intro/decipher_1.py	/^def decipher_1(code, extract, max_number_of_attempts):$/;"	f
+decipher_2	crypto_intro/decipher_2.py	/^def decipher_2(text, key_size, extract):$/;"	f
+decipher_rsa	rsa/rsa_functions.py	/^def decipher_rsa(code, public_key, private_key):$/;"	f
+deciphered_text	rsa/decipher_known_rsa.py	/^deciphered_text = rsa_functions.decipher_rsa(code, public_key, private_key)$/;"	v
+decoded_message	crypto_intro/decipher_1.py	/^decoded_message = decipher_1(code, "COURSE", max_number_of_attempts)$/;"	v
+decoded_text	rsa/decipher_unknown_rsa.py	/^decoded_text = rsa_functions.decipher_rsa(code, public_key, private_key)$/;"	v
+dot	graphs/clique/clique_0.py	/^dot = Graph(comment='Graph 0 : Clique')$/;"	v
+dot	graphs/clique/clique_1.py	/^dot = Graph(comment='Graph 1 : Clique')$/;"	v
+dot	graphs/clique/clique_2.py	/^dot = Graph(comment='Graph 2 : Clique')$/;"	v
+dot	graphs/clique/clique_3.py	/^dot = Graph(comment='Graph 3 : Clique')$/;"	v
+dot	graphs/clique/clique_5.py	/^dot = Graph(comment='Graph 3 : Clique')$/;"	v
+dot	graphs/clique/clique_5_transform.py	/^dot = Graph(comment='Graph 3 : Clique')$/;"	v
+dot	graphs/clique/clique_transform.py	/^dot = Graph(comment='Graph 3 : Clique')$/;"	v
+dot	graphs/coloring/coloring_1.py	/^dot = Graph(comment='Graph 1 : graph to color')$/;"	v
+dot	graphs/coloring/coloring_2.py	/^dot = Graph(comment='Graph 1 : graph to color')$/;"	v
+dot	graphs/coloring/coloring_3.py	/^dot = Graph(comment='Graph 1 : graph to color')$/;"	v
+dot	graphs/independent_set/independent_1.py	/^dot = Graph(comment='Graph 1 : Independent set')$/;"	v
+dot	graphs/independent_set/independent_2.py	/^dot = Graph(comment='Graph 1 : Independent set')$/;"	v
+dot	graphs/independent_set/independent_3.py	/^dot = Graph(comment='Graph 1 : Independent set')$/;"	v
+dot	graphs/other_graphs/bipartite_graph.py	/^dot = Graph(comment='Graph 1 : bipartite graph')$/;"	v
+dot	graphs/other_graphs/exercise_graph_1.py	/^dot = Graph(comment='Graph used to study the dominating set problem')$/;"	v
+dot	graphs/other_graphs/exercise_graph_2.py	/^dot = Graph(comment='Graph used to study the dominating set problem')$/;"	v
+dot	graphs/other_graphs/highlight_subset.py	/^    dot = Graph(comment='Graph 1 : dominating set')$/;"	v
+dot	graphs/other_graphs/highlight_subset.py	/^dot = Graph(comment='Graph 1 : dominating set')$/;"	v
+dot	graphs/random_graphs/random_graph.py	/^dot = Graph(comment='Random graph generated by python')$/;"	v
+dot	graphs/random_graphs/random_graph_minimalist.py	/^dot = Graph(comment='Random graph generated by python')$/;"	v
+edge	graphs/clique/clique_5_transform.py	/^    edge = list(edge)$/;"	v
+edge	graphs/clique/clique_transform.py	/^    edge = list(edge)$/;"	v
+edges	graphs/clique/clique_0.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/clique/clique_1.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/clique/clique_2.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/clique/clique_3.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/clique/clique_5.py	/^edges = [(3, 2),$/;"	v
+edges	graphs/clique/clique_5_transform.py	/^edges = [{3, 2},$/;"	v
+edges	graphs/clique/clique_transform.py	/^edges = [{7, 2},$/;"	v
+edges	graphs/coloring/coloring_1.py	/^edges = [(1, 2),$/;"	v
+edges	graphs/coloring/coloring_2.py	/^edges = [(1, 2),$/;"	v
+edges	graphs/coloring/coloring_3.py	/^edges = [(1, 2),$/;"	v
+edges	graphs/independent_set/independent_1.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/independent_set/independent_2.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/independent_set/independent_3.py	/^edges = [(7, 2),$/;"	v
+edges	graphs/other_graphs/bipartite_graph.py	/^edges = []$/;"	v
+edges	graphs/other_graphs/highlight_subset.py	/^edges = [(1, 2),$/;"	v
+edges_list	graphs/other_graphs/exercise_graph_1.py	/^edges_list = []$/;"	v
+edges_list	graphs/other_graphs/exercise_graph_2.py	/^edges_list = []$/;"	v
+end	complexity/dec_to_bin.py	/^end = int(10e8)$/;"	v
+exists_path	shortest_path/path_existence.py	/^def exists_path(destination, path_length):$/;"	f
+exists_sublist	recursion/knapsack_recursive.py	/^def exists_sublist(values_list, target_value):$/;"	f
+exponents	complexity/exponentiation_complexity.py	/^exponents = range(min_exponent, max_exponent + 2, step)$/;"	v
+factorial_rec	recursion/factorial_rec.py	/^def factorial_rec(n):$/;"	f
+fast_exponentiation	complexity/exponentiation_complexity.py	/^def fast_exponentiation(a, n):$/;"	f
+fast_exponentiation	recursion/fast_exponentiation.py	/^def fast_exponentiation(a, n):$/;"	f
+file	complexity/dec_to_bin.py	/^file = 'decimal_to_binary.pdf'$/;"	v
+file	complexity/exponentiation_complexity.py	/^file = 'fast_exp_complexity.pdf'$/;"	v
+file_name	graphs/other_graphs/highlight_subset.py	/^    file_name = 'graph_1_subset_' + str(node_set[0])$/;"	v
+filename	complexity/linear_complexity.py	/^filename = 'linear.pdf'$/;"	v
+filename	complexity/matrix_multiplication.py	/^filename = 'matrix_multiplication.pdf'$/;"	v
+find_private_key	rsa/rsa_functions.py	/^def find_private_key(public_key):$/;"	f
+generate_key_code	rsa/generate_keys_and_codes.py	/^def generate_key_code(p, q, index):$/;"	f
+generate_keys_codes	rsa/generate_keys_and_codes.py	/^def generate_keys_codes(primes_couples):$/;"	f
+generate_problem_instance	graphs/dominating_set/generate_graph.py	/^def generate_problem_instance(n_nodes, max_successors):$/;"	f
+generate_rsa_keys	rsa/rsa_functions.py	/^def generate_rsa_keys(p, q):$/;"	f
+graph_name	graphs/clique/clique_0.py	/^graph_name = 'graphs\/clique_0'$/;"	v
+graph_name	graphs/clique/clique_1.py	/^graph_name = 'graphs\/clique_1'$/;"	v
+graph_name	graphs/clique/clique_2.py	/^graph_name = 'graphs\/clique_2'$/;"	v
+graph_name	graphs/clique/clique_3.py	/^graph_name = 'graphs\/clique_3'$/;"	v
+graph_name	graphs/clique/clique_5.py	/^graph_name = 'graphs\/clique_5'$/;"	v
+graph_name	graphs/clique/clique_5.py	/^graph_name = 'graphs\/clique_5_highlight'$/;"	v
+graph_name	graphs/clique/clique_5_transform.py	/^graph_name = 'graphs\/clique_5_transform'$/;"	v
+graph_name	graphs/clique/clique_5_transform.py	/^graph_name = 'graphs\/clique_5_transform_highlight'$/;"	v
+graph_name	graphs/clique/clique_transform.py	/^graph_name = 'graphs\/clique_transform'$/;"	v
+graph_name	graphs/coloring/coloring_1.py	/^graph_name = 'graphs\/coloring_0'$/;"	v
+graph_name	graphs/coloring/coloring_1.py	/^graph_name = 'graphs\/coloring_1'$/;"	v
+graph_name	graphs/coloring/coloring_2.py	/^graph_name = 'graphs\/coloring_0'$/;"	v
+graph_name	graphs/coloring/coloring_2.py	/^graph_name = 'graphs\/coloring_2'$/;"	v
+graph_name	graphs/coloring/coloring_3.py	/^graph_name = 'graphs\/coloring_0'$/;"	v
+graph_name	graphs/coloring/coloring_3.py	/^graph_name = 'graphs\/coloring_3'$/;"	v
+graph_name	graphs/independent_set/independent_1.py	/^graph_name = 'graphs\/independent_set_0'$/;"	v
+graph_name	graphs/independent_set/independent_1.py	/^graph_name = 'graphs\/independent_set_1'$/;"	v
+graph_name	graphs/independent_set/independent_2.py	/^graph_name = 'graphs\/independent_set_0'$/;"	v
+graph_name	graphs/independent_set/independent_2.py	/^graph_name = 'graphs\/independent_set_2'$/;"	v
+graph_name	graphs/independent_set/independent_3.py	/^graph_name = 'graphs\/independent_set_0'$/;"	v
+graph_name	graphs/independent_set/independent_3.py	/^graph_name = 'graphs\/independent_set_3'$/;"	v
+graph_name	graphs/other_graphs/bipartite_graph.py	/^graph_name = 'graphs\/bipartite'$/;"	v
+graph_name	graphs/other_graphs/exercise_graph_1.py	/^graph_name = 'graphs\/exercise_1'$/;"	v
+graph_name	graphs/other_graphs/exercise_graph_2.py	/^graph_name = 'graphs\/exercise_2'$/;"	v
+graph_name	graphs/other_graphs/highlight_subset.py	/^graph_name = 'graphs\/graph_1'$/;"	v
+graph_name	graphs/random_graphs/random_graph.py	/^graph_name = f"graphs\/rand_{n}_vx_{p}_edgs"$/;"	v
+graph_name	graphs/random_graphs/random_graph_minimalist.py	/^graph_name = 'graphs\/minimal_rand_' + str(n) + '_vx_' + str(p) + '_edgs'$/;"	v
+highlight_node	graphs/dominating_set/dominating_greedy.py	/^    def highlight_node(node, dot, step, color):$/;"	f	function:process_graph
+highlight_node	graphs/dominating_set/dominating_greedy_alternative.py	/^    def highlight_node(node, dot, step, color):$/;"	f	function:process_graph
+highlight_set	graphs/other_graphs/highlight_subset.py	/^def highlight_set(node_set, file_name, dot):$/;"	f
+indep_set	graphs/independent_set/independent_1.py	/^indep_set = [1, 8]$/;"	v
+indep_set	graphs/independent_set/independent_2.py	/^indep_set = [5, 9]$/;"	v
+indep_set	graphs/independent_set/independent_3.py	/^indep_set = [1, 3, 10, 2, 9]$/;"	v
+index	rsa/decipher_unknown_rsa.py	/^index = 6$/;"	v
+integers	complexity/dec_to_bin.py	/^integers = range(start, end, step)$/;"	v
+intermediate_values	recursion/memoized_fibonacci.py	/^intermediate_values = [None for i in range(1, m + 1)]$/;"	v
+isPrime	rsa/rsa_functions.py	/^def isPrime(n):$/;"	f
+islice	rsa/rsa_functions.py	/^from itertools import count, islice$/;"	i
+linear_1	dichotomic/plot_funcs.py	/^linear_1 = 1.5*x_data$/;"	v
+linear_2	dichotomic/plot_funcs.py	/^linear_2 = 0.5*x_data$/;"	v
+liste	recursion/dynamic_programming.py	/^liste = [[0 for i in range(m + 1)] for j in range(n + 1)]$/;"	v
+log	complexity/dec_to_bin.py	/^from math import log$/;"	i
+log_1	dichotomic/plot_funcs.py	/^log_1 = 2*np.log(x_data)$/;"	v
+log_2	dichotomic/plot_funcs.py	/^log_2 = 6*np.log(x_data)$/;"	v
+m	graphs/other_graphs/exercise_graph_1.py	/^m = 4$/;"	v
+m	graphs/other_graphs/exercise_graph_2.py	/^m = 6$/;"	v
+m	recursion/dynamic_programming.py	/^m = 30$/;"	v
+m	recursion/memoized_fibonacci.py	/^m = 200$/;"	v
+math	complexity/dec_to_bin.py	/^import math$/;"	i
+math	rsa/rsa_functions.py	/^import math$/;"	i
+matplotlib	complexity/dec_to_bin.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	complexity/exponentiation_complexity.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	complexity/linear_complexity.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	complexity/matrix_multiplication.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	dichotomic/plot_funcs.py	/^import matplotlib.pyplot as plt$/;"	i
+matrix_sizes	complexity/matrix_multiplication.py	/^matrix_sizes = range(0, 5000, 500)$/;"	v
+matrix_sizes	complexity/profiling/profiling_demo_2.py	/^matrix_sizes = range(0, 3000, 500)$/;"	v
+max_exponent	complexity/exponentiation_complexity.py	/^max_exponent = 5**8$/;"	v
+max_number_of_attempts	crypto_intro/decipher_1.py	/^max_number_of_attempts = 100$/;"	v
+max_number_of_attempts	crypto_intro/decipher_2.py	/^max_number_of_attempts = 10000$/;"	v
+max_size	complexity/linear_complexity.py	/^max_size = 10**7$/;"	v
+max_successors	graphs/dominating_set/dominating_greedy_alternative.py	/^max_successors = 4$/;"	v
+max_successors	graphs/dominating_set/dominating_greedy_alternative.py	/^max_successors = 5$/;"	v
+max_successors	graphs/dominating_set/dominating_greedy_alternative.py	/^max_successors = 6$/;"	v
+memo_fibonacci	recursion/memoized_fibonacci.py	/^def memo_fibonacci(n):$/;"	f
+min_exponent	complexity/exponentiation_complexity.py	/^min_exponent = 1$/;"	v
+min_size	complexity/linear_complexity.py	/^min_size = 1$/;"	v
+n	graphs/other_graphs/exercise_graph_1.py	/^n = 30$/;"	v
+n	graphs/other_graphs/exercise_graph_2.py	/^n = 100$/;"	v
+n	graphs/random_graphs/random_graph.py	/^n = 30$/;"	v
+n	graphs/random_graphs/random_graph_minimalist.py	/^n = 50$/;"	v
+n	recursion/dynamic_programming.py	/^n = 30$/;"	v
+n	rsa/cipher_rsa.py	/^n = p * q$/;"	v
+n	rsa/decipher_known_rsa.py	/^n = int(public_key_str.split(',')[0])$/;"	v
+n	rsa/decipher_unknown_rsa.py	/^n = int(public_key_str.split(',')[0])$/;"	v
+n_nodes	graphs/dominating_set/dominating_greedy_alternative.py	/^n_nodes = 15$/;"	v
+n_nodes	graphs/dominating_set/dominating_greedy_alternative.py	/^n_nodes = 20$/;"	v
+n_nodes	graphs/dominating_set/dominating_greedy_alternative.py	/^n_nodes = 30$/;"	v
+n_nodes	graphs/dominating_set/dominating_greedy_alternative.py	/^n_nodes = 40$/;"	v
+n_nodes	graphs/dominating_set/dominating_greedy_alternative.py	/^n_nodes = 80$/;"	v
+nb_of_successors	graphs/other_graphs/exercise_graph_1.py	/^    nb_of_successors = random.randint(1, m)$/;"	v
+nb_of_successors	graphs/other_graphs/exercise_graph_2.py	/^    nb_of_successors = random.randint(1, m)$/;"	v
+neighboring_cities	shortest_path/all_shortest_paths.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+neighboring_cities	shortest_path/build_all_paths.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+neighboring_cities	shortest_path/build_paths_to_destination.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+neighboring_cities	shortest_path/build_paths_to_destination_no_loops.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+neighboring_cities	shortest_path/one_shortest_path.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+neighboring_cities	shortest_path/path_existence.py	/^neighboring_cities = [[1, 3, 4],  # neighbors of 0$/;"	v
+new_paths	shortest_path/build_all_paths.py	/^    new_paths = [path + [ngbrs] for path in paths[path_length - 1]$/;"	v
+new_paths	shortest_path/build_paths_to_destination.py	/^    new_paths = [path + [ngbrs] for path in paths[path_length - 1]$/;"	v
+new_paths	shortest_path/build_paths_to_destination_no_loops.py	/^    new_paths = [path + [ngbrs] for path in paths[path_length - 1]$/;"	v
+new_shortest_path	shortest_path/all_shortest_paths.py	/^                        new_shortest_path = x + [city]$/;"	v
+node_a	graphs/random_graphs/random_graph.py	/^    node_a = str(random_edge.pop())$/;"	v
+node_a	graphs/random_graphs/random_graph_minimalist.py	/^    node_a = str(random_edge.pop())$/;"	v
+node_b	graphs/random_graphs/random_graph.py	/^    node_b = str(random_edge.pop())$/;"	v
+node_b	graphs/random_graphs/random_graph_minimalist.py	/^    node_b = str(random_edge.pop())$/;"	v
+node_set	graphs/coloring/coloring_1.py	/^    node_set = color[0]$/;"	v
+node_set	graphs/coloring/coloring_2.py	/^    node_set = color[0]$/;"	v
+node_set	graphs/coloring/coloring_3.py	/^    node_set = color[0]$/;"	v
+normal_exponentiation	recursion/normal_exponentiation.py	/^def normal_exponentiation(a, n):$/;"	f
+np	complexity/matrix_multiplication.py	/^import numpy as np$/;"	i
+np	complexity/profiling/profiling_demo.py	/^import numpy as np$/;"	i
+np	complexity/profiling/profiling_demo_2.py	/^import numpy as np$/;"	i
+np	dichotomic/plot_funcs.py	/^import numpy as np$/;"	i
+np	graphs/other_graphs/exercise_graph_1.py	/^import numpy as np$/;"	i
+np	graphs/other_graphs/exercise_graph_2.py	/^import numpy as np$/;"	i
+np	graphs/random_graphs/random_graph.py	/^import numpy as np$/;"	i
+np	graphs/random_graphs/random_graph_minimalist.py	/^import numpy as np$/;"	i
+one_shortest_path	shortest_path/one_shortest_path.py	/^one_shortest_path = [None] * 6$/;"	v
+os	complexity/linear_complexity.py	/^import os$/;"	i
+os	complexity/profiling/profiling_demo.py	/^import os$/;"	i
+os	complexity/profiling/profiling_demo_2.py	/^import os$/;"	i
+os	complexity/profiling/profiling_demo_3.py	/^import os$/;"	i
+os	crypto_intro/decipher_1.py	/^import os$/;"	i
+p	graphs/random_graphs/random_graph.py	/^p = 25$/;"	v
+p	graphs/random_graphs/random_graph_minimalist.py	/^p = 100$/;"	v
+paths	shortest_path/build_all_paths.py	/^paths = [[[0]]]$/;"	v
+paths	shortest_path/build_paths_to_destination.py	/^paths = [[[0]]]$/;"	v
+paths	shortest_path/build_paths_to_destination_no_loops.py	/^paths = [[[0]]]$/;"	v
+paths_to_destination	shortest_path/build_paths_to_destination.py	/^    paths_to_destination = [path for path in paths[path_length]$/;"	v
+paths_to_destination	shortest_path/build_paths_to_destination_no_loops.py	/^    paths_to_destination = [path for path in paths[path_length]$/;"	v
+penwidth	graphs/clique/clique_0.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_1.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_1.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/clique/clique_2.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_2.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/clique/clique_3.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_3.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/clique/clique_5.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_5.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/clique/clique_5_transform.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/clique/clique_5_transform.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/clique/clique_transform.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/coloring/coloring_1.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/coloring/coloring_2.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/coloring/coloring_3.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/independent_set/independent_1.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/independent_set/independent_1.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/independent_set/independent_2.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/independent_set/independent_2.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/independent_set/independent_3.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/independent_set/independent_3.py	/^             penwidth='3.5')$/;"	v
+penwidth	graphs/other_graphs/bipartite_graph.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/other_graphs/exercise_graph_1.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/other_graphs/exercise_graph_2.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/other_graphs/highlight_subset.py	/^                 penwidth='1.1')$/;"	v
+penwidth	graphs/other_graphs/highlight_subset.py	/^             penwidth='1.1')$/;"	v
+penwidth	graphs/random_graphs/random_graph.py	/^             penwidth=some_width)$/;"	v
+penwidth	graphs/random_graphs/random_graph_minimalist.py	/^             penwidth='1.1')$/;"	v
+phi	rsa/cipher_rsa.py	/^phi = (p - 1) * (q - 1)$/;"	v
+pickle	graphs/dominating_set/dominating_greedy.py	/^import pickle$/;"	i
+pickle	graphs/dominating_set/dominating_greedy_alternative.py	/^import pickle$/;"	i
+pickle	graphs/dominating_set/generate_graph.py	/^import pickle$/;"	i
+pickle	graphs/other_graphs/exercise_graph_1.py	/^import pickle$/;"	i
+pickle	graphs/other_graphs/exercise_graph_2.py	/^import pickle$/;"	i
+plt	complexity/dec_to_bin.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	complexity/exponentiation_complexity.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	complexity/linear_complexity.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	complexity/matrix_multiplication.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	dichotomic/plot_funcs.py	/^import matplotlib.pyplot as plt$/;"	i
+pr	complexity/profiling/profiling_demo.py	/^pr = cProfile.Profile()$/;"	v
+pr	complexity/profiling/profiling_demo_2.py	/^pr = cProfile.Profile()$/;"	v
+pr	complexity/profiling/profiling_demo_3.py	/^pr = cProfile.Profile()$/;"	v
+primary_decomposition	rsa/rsa_functions.py	/^def primary_decomposition(n):$/;"	f
+primes_couples	rsa/generate_keys_and_codes.py	/^primes_couples = [(11, 17),$/;"	v
+print_one_shortest_path	shortest_path/one_shortest_path.py	/^def print_one_shortest_path(destination):$/;"	f
+print_shortest_paths	shortest_path/all_shortest_paths.py	/^def print_shortest_paths(destination):$/;"	f
+private_key	rsa/cipher_rsa.py	/^private_key = b$/;"	v
+private_key	rsa/decipher_known_rsa.py	/^private_key = b$/;"	v
+private_key_str	rsa/decipher_known_rsa.py	/^    private_key_str = text_file.read()$/;"	v
+process_graph	graphs/dominating_set/dominating_greedy.py	/^def process_graph(graph_name):$/;"	f
+process_graph	graphs/dominating_set/dominating_greedy_alternative.py	/^def process_graph(graph_name):$/;"	f
+public_key	rsa/cipher_rsa.py	/^public_key = (n, a)$/;"	v
+public_key	rsa/decipher_known_rsa.py	/^public_key = (n, a)$/;"	v
+public_key	rsa/decipher_unknown_rsa.py	/^public_key = (n, a)$/;"	v
+public_key_str	rsa/decipher_known_rsa.py	/^    public_key_str = text_file.read()$/;"	v
+public_key_str	rsa/decipher_unknown_rsa.py	/^    public_key_str = text_file.read()$/;"	v
+random	graphs/dominating_set/generate_graph.py	/^import random$/;"	i
+random	graphs/other_graphs/exercise_graph_1.py	/^import random$/;"	i
+random	graphs/other_graphs/exercise_graph_2.py	/^import random$/;"	i
+random	graphs/random_graphs/random_graph.py	/^import random$/;"	i
+random	graphs/random_graphs/random_graph_minimalist.py	/^import random$/;"	i
+random_edge	graphs/random_graphs/random_graph.py	/^    random_edge = all_edges.pop()$/;"	v
+random_edge	graphs/random_graphs/random_graph_minimalist.py	/^    random_edge = all_edges.pop()$/;"	v
+randrange	crypto_intro/cipher_2.py	/^from random import randrange$/;"	i
+randrange	crypto_intro/decipher_2.py	/^from random import randrange$/;"	i
+randrange	rsa/rsa_functions.py	/^from random import randrange$/;"	i
+recursive_function	recursion/recursive_function.py	/^def recursive_function(n, m):$/;"	f
+remainder	rsa/cipher_rsa.py	/^remainder = a * b % phi$/;"	v
+rsa_functions	rsa/cipher_rsa.py	/^import rsa_functions$/;"	i
+rsa_functions	rsa/decipher_known_rsa.py	/^import rsa_functions$/;"	i
+rsa_functions	rsa/decipher_unknown_rsa.py	/^import rsa_functions$/;"	i
+rsa_functions	rsa/generate_keys_and_codes.py	/^import rsa_functions$/;"	i
+sets	graphs/other_graphs/highlight_subset.py	/^sets = [[1],$/;"	v
+shortest_paths	shortest_path/all_shortest_paths.py	/^shortest_paths = [[] for i in range(6)]$/;"	v
+shuffle	crypto_intro/cipher_1.py	/^from random import shuffle$/;"	i
+shuffle	crypto_intro/decipher_1.py	/^from random import shuffle$/;"	i
+sizes	complexity/linear_complexity.py	/^sizes = range(min_size, max_size + 2, step)$/;"	v
+smarter_fibonacci	recursion/smarter_fibonacci.py	/^def smarter_fibonacci():$/;"	f
+some_color	graphs/random_graphs/random_graph.py	/^    some_color = colors[random.randint(1, len(colors) - 1)]$/;"	v
+some_width	graphs/random_graphs/random_graph.py	/^    some_width = str(random.uniform(1, 2))$/;"	v
+some_width	graphs/random_graphs/random_graph_minimalist.py	/^    some_width = str(random.uniform(1, 2))$/;"	v
+start	complexity/dec_to_bin.py	/^start = 1$/;"	v
+stats_file	complexity/profiling/profiling_demo.py	/^stats_file = open(f"{os.path.basename(__file__)}.txt", 'w')$/;"	v
+stats_file	complexity/profiling/profiling_demo_2.py	/^stats_file = open(f"{os.path.basename(__file__)}.txt", 'w')$/;"	v
+stats_file	complexity/profiling/profiling_demo_3.py	/^stats_file = open(f"{os.path.basename(__file__)}.txt", 'w')$/;"	v
+step	complexity/dec_to_bin.py	/^step = int(end \/ 20)$/;"	v
+step	complexity/exponentiation_complexity.py	/^step = int(max_exponent \/ 10)$/;"	v
+step	complexity/linear_complexity.py	/^step = int(max_size \/ 5)$/;"	v
+subset_1	graphs/other_graphs/bipartite_graph.py	/^subset_1 = [1, 2, 3, 4, 5, 6]$/;"	v
+subset_2	graphs/other_graphs/bipartite_graph.py	/^subset_2 = [7, 8, 9, 10, 11, 12]$/;"	v
+successors	graphs/other_graphs/exercise_graph_1.py	/^successors = {}$/;"	v
+successors	graphs/other_graphs/exercise_graph_2.py	/^successors = {}$/;"	v
+successors_of_node	graphs/other_graphs/exercise_graph_1.py	/^    successors_of_node = random.sample(range(1, n + 1), nb_of_successors)$/;"	v
+successors_of_node	graphs/other_graphs/exercise_graph_2.py	/^    successors_of_node = random.sample(range(1, n + 1), nb_of_successors)$/;"	v
+sys	complexity/profiling/profiling_demo.py	/^import sys$/;"	i
+sys	complexity/profiling/profiling_demo_2.py	/^import sys$/;"	i
+sys	complexity/profiling/profiling_demo_3.py	/^import sys$/;"	i
+sys	crypto_intro/decipher_1.py	/^import sys$/;"	i
+t0	complexity/linear_complexity.py	/^    t0 = time()$/;"	v
+t0	complexity/matrix_multiplication.py	/^    t0 = time()$/;"	v
+t0	complexity/profiling/profiling_demo_2.py	/^    t0 = time.time()$/;"	v
+target_value_1	recursion/knapsack_recursive.py	/^target_value_1 = 16$/;"	v
+target_value_2	recursion/knapsack_recursive.py	/^target_value_2 = 4$/;"	v
+target_value_3	recursion/knapsack_recursive.py	/^target_value_3 = 65$/;"	v
+target_value_4	recursion/knapsack_recursive.py	/^target_value_4 = -31$/;"	v
+target_value_5	recursion/knapsack_recursive.py	/^target_value_5 = 1980$/;"	v
+test_existence	shortest_path/path_existence.py	/^def test_existence(destination, path_length):$/;"	f
+test_list_target	recursion/knapsack_recursive.py	/^def test_list_target(values, target_value):$/;"	f
+text	rsa/cipher_rsa.py	/^    text = text_file.read()$/;"	v
+text	rsa/cipher_rsa.py	/^    text = text_file.write(str(b))$/;"	v
+text	rsa/cipher_rsa.py	/^    text = text_file.write(str(public_key[0]) + "," + str(public_key[1]))$/;"	v
+time	complexity/linear_complexity.py	/^from time import time$/;"	i
+time	complexity/matrix_multiplication.py	/^from time import time$/;"	i
+time	complexity/profiling/profiling_demo_2.py	/^import time$/;"	i
+time	crypto_intro/decipher_1.py	/^import time$/;"	i
+time_before	crypto_intro/decipher_1.py	/^time_before = time.time()$/;"	v
+time_per_key	crypto_intro/decipher_1.py	/^time_per_key = total_time\/max_number_of_attempts$/;"	v
+times	complexity/exponentiation_complexity.py	/^times = []$/;"	v
+times	complexity/linear_complexity.py	/^times = []$/;"	v
+times	complexity/matrix_multiplication.py	/^times = []$/;"	v
+times	complexity/profiling/profiling_demo_2.py	/^times = []$/;"	v
+title	complexity/dec_to_bin.py	/^title = 'Complexity of decimal to binary conversion'$/;"	v
+title	complexity/exponentiation_complexity.py	/^title = 'Fast exponentiation complexity'$/;"	v
+title	complexity/linear_complexity.py	/^title = 'Complexity of a sequence of multiplications'$/;"	v
+title	complexity/matrix_multiplication.py	/^title = 'Computation time of matrix multiplication'$/;"	v
+total_time	crypto_intro/decipher_1.py	/^total_time = time.time() - time_before$/;"	v
+values_1	recursion/knapsack_recursive.py	/^values_1 = [2, 7, -1, 9]$/;"	v
+values_2	recursion/knapsack_recursive.py	/^values_2 = [1, 23, 14, 7, -17, 3, 5, 179, 358, 25, 11, 2, -36, 17, 34, 23, -76]$/;"	v
+x	complexity/linear_complexity.py	/^        x = 2 * 3$/;"	v
+x_data	dichotomic/plot_funcs.py	/^x_data = np.arange(1, 70)$/;"	v
+y_data	dichotomic/plot_funcs.py	/^y_data = x_data+np.random.rand(x_data.shape[0])$/;"	v

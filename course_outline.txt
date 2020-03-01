@@ -1,0 +1,14 @@
+---
+day 1
+---
+concept of algorithm
+cryptograph
+recursion
+knapsack problem
+shortest path problem
+
+---
+day 2
+---
+computing complexities
+graph problems

@@ -1,5 +1,5 @@
 """
-    recursive function to see if a certain value is cnotained in a sublist
+    recursive function to see if a certain value is contained in a sublist
 """
 
 

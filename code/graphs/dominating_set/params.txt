@@ -1,0 +1,2 @@
+n_nodes=15
+max_successors=5
