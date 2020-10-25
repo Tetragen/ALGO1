@@ -1,8 +1,8 @@
 # Introduction to algorithms course
-This repository contains exercices for students at epitech for the course
+This repository contains slides and exercices for 5th year students at epitech for the course
 "introduction to algorithms".
 
-Scripts contains errors on the default "exercice" branch. These exercises are
+Scripts contains errors on the default "exercise" branch. These exercises are
 material for students to work locally after cloning the repository.
 
 The branch "correction" contains correct scripts. Students are encouraged to
@@ -17,7 +17,7 @@ This will allow us to run scripts in the browser.
 You need to have docker installer.
 To install docker, follow the instructions here:
 https://docs.docker.com/get-docker/
-The dockerfile sets the insallation up.
+The dockerfile sets the installation up.
 
 ### Build and launch by scripts
 -   To build: ```./buildJupyterImage.sh```
