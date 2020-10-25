@@ -15,7 +15,8 @@ This will allow us to run scripts in the browser.
 
 ### Installation
 You need to have docker installer.
-To install docker, follow the instructions here: https://docs.docker.com/get-docker/
+To install docker, follow the instructions here:
+https://docs.docker.com/get-docker/
 The dockerfile sets the insallation up.
 
 ### Build and launch by scripts

@@ -1,0 +1,293 @@
+.
+├── Dockerfile
+├── README.md
+├── buildJupyterImage.sh
+├── code
+│   ├── complexity
+│   │   ├── dec_to_bin.py
+│   │   ├── exponentiation_complexity.py
+│   │   ├── images
+│   │   │   ├── decimal_to_binary.pdf
+│   │   │   ├── fast_exp_complexity.pdf
+│   │   │   ├── linear.pdf
+│   │   │   └── matrix_multiplication.pdf
+│   │   ├── insertion_sort
+│   │   │   ├── __pycache__
+│   │   │   │   └── insertion_sort.cpython-36.pyc
+│   │   │   ├── complexity.pdf
+│   │   │   ├── complexity.py
+│   │   │   └── insertion_sort.py
+│   │   ├── linear_complexity.py
+│   │   ├── matrix_multiplication.py
+│   │   └── profiling
+│   │       ├── profiling_demo.py
+│   │       ├── profiling_demo.py.txt
+│   │       ├── profiling_demo_2.py
+│   │       ├── profiling_demo_2.py.txt
+│   │       ├── profiling_demo_3.py
+│   │       └── profiling_demo_3.py.txt
+│   ├── crypto_intro
+│   │   ├── __pycache__
+│   │   │   └── decipher_1.cpython-36.pyc
+│   │   ├── cipher_1.py
+│   │   ├── cipher_2.py
+│   │   ├── crypted_messages
+│   │   │   ├── crypted_message_1.txt
+│   │   │   └── crypted_message_2.txt
+│   │   ├── cumulative\ distribution\ function.pdf
+│   │   ├── decipher_1.py
+│   │   ├── decipher_2.py
+│   │   └── geometric_distribution.py
+│   ├── graphs
+│   │   ├── clique
+│   │   │   ├── __pycache__
+│   │   │   │   └── plot_graph.cpython-36.pyc
+│   │   │   ├── archive
+│   │   │   │   ├── clique_0.py
+│   │   │   │   ├── clique_1.py
+│   │   │   │   ├── clique_2.py
+│   │   │   │   ├── clique_3.py
+│   │   │   │   ├── clique_5.py
+│   │   │   │   ├── clique_5_transform.py
+│   │   │   │   └── images
+│   │   │   │       ├── clique_0
+│   │   │   │       ├── clique_0.pdf
+│   │   │   │       ├── clique_1
+│   │   │   │       ├── clique_1.pdf
+│   │   │   │       ├── clique_2
+│   │   │   │       ├── clique_2.pdf
+│   │   │   │       ├── clique_3
+│   │   │   │       ├── clique_3.pdf
+│   │   │   │       ├── clique_5
+│   │   │   │       ├── clique_5.pdf
+│   │   │   │       ├── clique_5_highlight
+│   │   │   │       ├── clique_5_highlight.pdf
+│   │   │   │       ├── clique_5_transform
+│   │   │   │       ├── clique_5_transform.pdf
+│   │   │   │       ├── clique_5_transform_highlight
+│   │   │   │       ├── clique_5_transform_highlight.pdf
+│   │   │   │       ├── clique_transform
+│   │   │   │       └── clique_transform.pdf
+│   │   │   ├── complement_graph.py
+│   │   │   ├── data
+│   │   │   │   └── edges
+│   │   │   ├── images
+│   │   │   │   ├── complement\ graph.pdf
+│   │   │   │   └── initial\ graph.pdf
+│   │   │   └── plot_graph.py
+│   │   ├── coloring
+│   │   │   ├── coloring_1.py
+│   │   │   ├── coloring_2.py
+│   │   │   ├── coloring_3.py
+│   │   │   └── graphs
+│   │   │       ├── coloring_0
+│   │   │       ├── coloring_0.pdf
+│   │   │       ├── coloring_1
+│   │   │       └── coloring_1.pdf
+│   │   ├── dominating_set
+│   │   │   ├── __pycache__
+│   │   │   │   ├── plot_graph.cpython-36.pyc
+│   │   │   │   └── read_params.cpython-36.pyc
+│   │   │   ├── custom_graph.py
+│   │   │   ├── data
+│   │   │   │   ├── custom_edges
+│   │   │   │   ├── custom_neighbors
+│   │   │   │   ├── exercise_edges
+│   │   │   │   ├── exercise_neighbors
+│   │   │   │   ├── n=100_maxs=5_edges
+│   │   │   │   ├── n=100_maxs=5_neighbors
+│   │   │   │   ├── n=15_maxs=5_edges
+│   │   │   │   ├── n=15_maxs=5_neighbors
+│   │   │   │   ├── n=20_maxs=10_edges
+│   │   │   │   ├── n=20_maxs=10_neighbors
+│   │   │   │   ├── n=20_maxs=5_edges
+│   │   │   │   ├── n=20_maxs=5_neighbors
+│   │   │   │   ├── n=40_maxs=10_edges
+│   │   │   │   ├── n=40_maxs=10_neighbors
+│   │   │   │   ├── n=40_maxs=4_edges
+│   │   │   │   ├── n=40_maxs=4_neighbors
+│   │   │   │   ├── n=40_maxs=6_edges
+│   │   │   │   ├── n=40_maxs=6_neighbors
+│   │   │   │   ├── n=5_maxs=4_edges
+│   │   │   │   ├── n=5_maxs=4_neighbors
+│   │   │   │   ├── n=80_maxs=4_edges
+│   │   │   │   └── n=80_maxs=4_neighbors
+│   │   │   ├── generate_problem_instance.py
+│   │   │   ├── greedy_bis.py
+│   │   │   ├── greedy_standard.py
+│   │   │   ├── greedy_ter.py
+│   │   │   ├── images
+│   │   │   │   ├── custom
+│   │   │   │   │   ├── graph_initial.pdf
+│   │   │   │   │   ├── greedy_1.pdf
+│   │   │   │   │   ├── greedy_2.pdf
+│   │   │   │   │   ├── greedy_3.pdf
+│   │   │   │   │   ├── greedy_4.pdf
+│   │   │   │   │   ├── greedy_5.pdf
+│   │   │   │   │   ├── greedy_bis_1.pdf
+│   │   │   │   │   ├── greedy_bis_2.pdf
+│   │   │   │   │   ├── greedy_bis_3.pdf
+│   │   │   │   │   ├── greedy_ter_1.pdf
+│   │   │   │   │   ├── greedy_ter_2.pdf
+│   │   │   │   │   ├── greedy_ter_3.pdf
+│   │   │   │   │   ├── greedy_ter_4.pdf
+│   │   │   │   │   └── greedy_ter_5.pdf
+│   │   │   │   ├── exercise
+│   │   │   │   │   ├── graph_initial.pdf
+│   │   │   │   │   ├── greedy_1.pdf
+│   │   │   │   │   ├── greedy_10.pdf
+│   │   │   │   │   ├── greedy_11.pdf
+│   │   │   │   │   ├── greedy_12.pdf
+│   │   │   │   │   ├── greedy_2.pdf
+│   │   │   │   │   ├── greedy_3.pdf
+│   │   │   │   │   ├── greedy_4.pdf
+│   │   │   │   │   ├── greedy_5.pdf
+│   │   │   │   │   ├── greedy_6.pdf
+│   │   │   │   │   ├── greedy_7.pdf
+│   │   │   │   │   ├── greedy_8.pdf
+│   │   │   │   │   ├── greedy_9.pdf
+│   │   │   │   │   ├── greedy_ter_1.pdf
+│   │   │   │   │   ├── greedy_ter_10.pdf
+│   │   │   │   │   ├── greedy_ter_11.pdf
+│   │   │   │   │   ├── greedy_ter_2.pdf
+│   │   │   │   │   ├── greedy_ter_3.pdf
+│   │   │   │   │   ├── greedy_ter_4.pdf
+│   │   │   │   │   ├── greedy_ter_5.pdf
+│   │   │   │   │   ├── greedy_ter_6.pdf
+│   │   │   │   │   ├── greedy_ter_7.pdf
+│   │   │   │   │   ├── greedy_ter_8.pdf
+│   │   │   │   │   └── greedy_ter_9.pdf
+│   │   │   │   ├── n=15_maxs=5
+│   │   │   │   │   └── graph_initial.pdf
+│   │   │   │   ├── n=20_maxs=10
+│   │   │   │   │   ├── graph_initial.pdf
+│   │   │   │   │   ├── greedy_1.pdf
+│   │   │   │   │   ├── greedy_2.pdf
+│   │   │   │   │   ├── greedy_3.pdf
+│   │   │   │   │   └── greedy_4.pdf
+│   │   │   │   ├── n=20_maxs=5
+│   │   │   │   │   ├── graph_initial.pdf
+│   │   │   │   │   ├── greedy_1.pdf
+│   │   │   │   │   ├── greedy_2.pdf
+│   │   │   │   │   ├── greedy_3.pdf
+│   │   │   │   │   ├── greedy_4.pdf
+│   │   │   │   │   ├── greedy_5.pdf
+│   │   │   │   │   ├── greedy_ter_1.pdf
+│   │   │   │   │   ├── greedy_ter_2.pdf
+│   │   │   │   │   ├── greedy_ter_3.pdf
+│   │   │   │   │   ├── greedy_ter_4.pdf
+│   │   │   │   │   └── greedy_ter_5.pdf
+│   │   │   │   └── n=5_maxs=4
+│   │   │   │       ├── graph_initial.pdf
+│   │   │   │       ├── greedy_1.pdf
+│   │   │   │       └── greedy_bis_1.pdf
+│   │   │   ├── params.txt
+│   │   │   ├── plot_graph.py
+│   │   │   └── read_params.py
+│   │   ├── independent_set
+│   │   │   ├── graphs
+│   │   │   │   ├── independent_set_0
+│   │   │   │   ├── independent_set_0.pdf
+│   │   │   │   ├── independent_set_1
+│   │   │   │   ├── independent_set_1.pdf
+│   │   │   │   ├── independent_set_2
+│   │   │   │   ├── independent_set_2.pdf
+│   │   │   │   ├── independent_set_3
+│   │   │   │   └── independent_set_3.pdf
+│   │   │   ├── independent_1.py
+│   │   │   ├── independent_2.py
+│   │   │   └── independent_3.py
+│   │   ├── other_graphs
+│   │   │   ├── bipartite_graph.py
+│   │   │   ├── exercise_graph_1.py
+│   │   │   ├── exercise_graph_2.py
+│   │   │   ├── graphs
+│   │   │   │   ├── bipartite
+│   │   │   │   └── bipartite.pdf
+│   │   │   └── highlight_subset.py
+│   │   └── random_graphs
+│   │       ├── images
+│   │       │   ├── random_directed_10_vx_30_edgs.pdf
+│   │       │   └── random_undirected_10_vx_40_edgs.pdf
+│   │       ├── random_directed_graph.py
+│   │       └── random_undirected_graph.py
+│   ├── maths
+│   │   ├── linear\ and\ logs
+│   │   │   ├── function_linear_log.pdf
+│   │   │   └── plot_funcs.py
+│   │   ├── plongement
+│   │   │   ├── plongement.pdf
+│   │   │   └── plongement.py
+│   │   └── repere
+│   │       ├── repere.pdf
+│   │       └── repere.py
+│   ├── recursion
+│   │   ├── bad_fibonacci.py
+│   │   ├── bad_fibonacci_detailed.py
+│   │   ├── bad_recursion.py
+│   │   ├── dynamic_programming.py
+│   │   ├── factorial_rec.py
+│   │   ├── fast_exponentiation.py
+│   │   ├── fast_exponentiation_algebric.py
+│   │   ├── knapsack_recursive.py
+│   │   ├── knapsack_recursive_detailed.py
+│   │   ├── memoized_fibonacci.py
+│   │   ├── memoized_fibonacci_detailed.py
+│   │   ├── normal_exponentiation.py
+│   │   ├── recursive_function.py
+│   │   └── smarter_fibonacci.py
+│   ├── rsa
+│   │   ├── __pycache__
+│   │   │   ├── rsa_functions.cpython-36.pyc
+│   │   │   └── rsa_functions.cpython-37.pyc
+│   │   ├── cipher_rsa.py
+│   │   ├── crypted_messages
+│   │   │   ├── crypted_message_rsa.txt
+│   │   │   ├── crypted_message_rsa_1.txt
+│   │   │   ├── crypted_message_rsa_2.txt
+│   │   │   ├── crypted_message_rsa_3.txt
+│   │   │   ├── crypted_message_rsa_4.txt
+│   │   │   ├── crypted_message_rsa_5.txt
+│   │   │   └── crypted_message_rsa_6.txt
+│   │   ├── decipher_known_rsa.py
+│   │   ├── decipher_unknown_rsa.py
+│   │   ├── decrypted_messages
+│   │   ├── generate_keys_and_codes.py
+│   │   ├── rsa_functions.py
+│   │   ├── rsa_keys
+│   │   │   ├── generated_private_key.txt
+│   │   │   ├── generated_public_key.txt
+│   │   │   ├── private_key_1.txt
+│   │   │   ├── private_key_2.txt
+│   │   │   ├── private_key_3.txt
+│   │   │   ├── private_key_4.txt
+│   │   │   ├── private_key_5.txt
+│   │   │   ├── private_key_6.txt
+│   │   │   ├── public_key_1.txt
+│   │   │   ├── public_key_2.txt
+│   │   │   ├── public_key_3.txt
+│   │   │   ├── public_key_4.txt
+│   │   │   ├── public_key_5.txt
+│   │   │   └── public_key_6.txt
+│   │   └── texts
+│   │       ├── example_text.txt
+│   │       └── hidden_text_6.txt
+│   ├── shortest_path
+│   │   ├── all_shortest_paths.py
+│   │   ├── build_all_paths.py
+│   │   ├── build_paths_to_destination.py
+│   │   ├── build_paths_to_destination_no_loops.py
+│   │   ├── one_shortest_path.py
+│   │   ├── path_existence.py
+│   │   └── path_existence_detailed.py
+│   └── tags
+├── course
+│   ├── Algo1_projet.pdf
+│   ├── presentation_1.pdf
+│   └── presentation_2.pdf
+├── course_outline.txt
+├── file_tree.txt
+├── launchNotebookServer.sh
+└── requirements.txt
+
+47 directories, 243 files
