@@ -1,12 +1,4 @@
----
-day 1
----
 numpy
-
-
----
-day 2
----
 networkx
 numpy
 matplotlib

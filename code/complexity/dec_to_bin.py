@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from math import log
 import math
 
 
@@ -17,7 +16,7 @@ def dec2bin(n):
     liste = [0 for i in range(m + 1)]
     for i in range(m + 1):
         counter += 1
-        liste[i] = n % (2**(i + 1)) // (2 ** i)
+        liste[i] = (n % (2**(i + 1))) // (2 ** i)
     return liste, n, counter
 
 
@@ -30,7 +29,7 @@ title = 'Complexity of decimal to binary conversion'
 file = 'decimal_to_binary.pdf'
 plt.plot(integers, counters, 'o')
 plt.ylabel('Number of operations')
-plt.xlabel('Number of operations')
+plt.xlabel('integer to convert')
 plt.title(title)
 plt.savefig('images/' + file)
 plt.close()

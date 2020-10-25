@@ -51,7 +51,9 @@ def plot_subset(step,
     else:
         raise ValueError("wrong algorithm method")
 
-    graph_title = f"\nSubset size: {len(selected_nodes)}\nAlgo step: {step}\n"
+    graph_title = f"""Subset size: {len(selected_nodes)}
+    Algo step: {step}
+    Method: {method}"""
 
     plt.title(graph_title, fontsize=9)
     # we give a seed to the layout engine

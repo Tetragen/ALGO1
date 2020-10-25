@@ -55,10 +55,20 @@ def process_graph(graph_name):
         # built the reduced graph
         # consisting in the original graph deprived from dominated nodes
         reduced_graph = [node for node in nodes if node not in dominated_nodes]
+
         # build a new dictionary containing adjecency relations in that graph
-        neighbors_in_reduced_graph={node:neighbors[node] for node in
+        # we need to edit the dictionary of neighbors first.
+        neighbors_reduced=neighbors.copy()
+        for item in neighbors_reduced:
+            for ngbr in neighbors_reduced[item]:
+                if ngbr in dominated_nodes:
+                    print(f"remove {ngbr} from neighbors of {item}")
+                    neighbors_reduced[item].remove(ngbr)
+
+        neighbors_in_reduced_graph={node:neighbors_reduced[node] for node in
                                     reduced_graph}
-        # sort tha dictionary as before
+
+        # sort that dictionary as before
         sorted_nodes_reduced = sorted(neighbors_in_reduced_graph,
                               key=lambda node: len(neighbors_in_reduced_graph[node]),
                               reverse=True)

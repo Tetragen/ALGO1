@@ -2,7 +2,7 @@
 day 1
 ---
 concept of algorithm
-cryptograph
+cryptography
 recursion
 knapsack problem
 shortest path problem
@@ -10,5 +10,11 @@ shortest path problem
 ---
 day 2
 ---
+measuring complexities
 computing complexities
-graph problems
+big O notations and aymptotic study
+insertion sort
+horner algorithm
+dominating set problem
+hierarchy between problems
+classes of complexity
