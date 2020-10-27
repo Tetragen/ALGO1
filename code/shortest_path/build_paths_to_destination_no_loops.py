@@ -21,7 +21,10 @@ paths_to_destination, path_length = [], 0
 while paths_to_destination == []:
     path_length += 1
     # build paths as before
-    new_paths = [path + [ngbrs] for path in paths[path_length - 1]
+    """
+        EDIT THIS LOOP
+    """
+    new_paths = [path + [5] for path in paths[path_length - 1]
                  for ngbrs in neighboring_nodes[path[-1]]
                  if ngbrs not in path]
     # append the paths to the list of paths as before

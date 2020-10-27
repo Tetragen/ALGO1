@@ -23,9 +23,12 @@ paths = [[[0]]]
 for path_length in range(1, 6):
     print(f"building paths of length {path_length}")
     new_paths=list()
+    """
+        EDIT THIS LOOP
+    """
     for path in paths[path_length-1]:
         for ngbr in neighboring_nodes[path[-1]]:
-            new_paths.append(path+[ngbr])
+            new_paths.append([1])
     # append the paths to the list of paths
     paths.append(new_paths)
 

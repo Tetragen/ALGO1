@@ -24,14 +24,17 @@ for step in range(1, 6):
             for neighbor in neighboring_nodes[node]:
                 c = one_shortest_path[neighbor]
                 if c is not None and len(c) == step:
-                    print(f"node : {node}")
-                    print(f"neighbor : {neighbor}")
-                    print(f"path to neighbor : {c}")
-                    print(colored(f"build one shortest path to {node}",
-                                  "green",
-                                  attrs=["bold"]))
-                    one_shortest_path[node] = c + [node]
-                    print(one_shortest_path[node])
+                    """
+                        EDIT HERE
+                    """
+                    # print(f"node : {node}")
+                    # print(f"neighbor : {neighbor}")
+                    # print(f"path to neighbor : {c}")
+                    # print(colored(f"build one shortest path to {node}",
+                    #               "green",
+                    #               attrs=["bold"]))
+                    one_shortest_path[node] = c + [1]
+                    # print(one_shortest_path[node])
 
 
 def print_one_shortest_path(destination):
@@ -40,7 +43,7 @@ def print_one_shortest_path(destination):
 
 
 print_one_shortest_path(1)
-# print_one_shortest_path(2)
-# print_one_shortest_path(3)
-# print_one_shortest_path(4)
+print_one_shortest_path(2)
+print_one_shortest_path(3)
+print_one_shortest_path(4)
 # print_one_shortest_path(5)

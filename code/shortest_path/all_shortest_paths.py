@@ -27,15 +27,18 @@ for step in range(1, number_of_nodes+1):
             for neighbor in neighboring_nodes[node]:
                 shtr_pths_to_ngbr = shortest_paths[neighbor]
                 if shtr_pths_to_ngbr != [] and len(shtr_pths_to_ngbr[0]) == step:
-                    print(f"node : {node}")
-                    print(f"neighbor : {neighbor}")
-                    print(f"shortest paths to neighbor : {shtr_pths_to_ngbr}")
-                    print(colored(f"build one shortest path to {node}",
-                                  "green",
-                                  attrs=["bold"]))
+                    """
+                        EDIT THIS LOOP
+                    """
+                    # print(f"node : {node}")
+                    # print(f"neighbor : {neighbor}")
+                    # print(f"shortest paths to neighbor : {shtr_pths_to_ngbr}")
+                    # print(colored(f"build one shortest path to {node}",
+                    #               "green",
+                    #               attrs=["bold"]))
                     for path in shtr_pths_to_ngbr:
-                        new_shortest_path = path + [node]
-                        shortest_paths[node].append(new_shortest_path)
+                        new_shortest_path = path + [3]
+                        shortest_paths[node].append(path)
                         print("add : ")
                         print(new_shortest_path)
 

@@ -22,9 +22,12 @@ while paths_to_destination == []:
     path_length += 1
     # build paths as before
     new_paths = list()
+    """
+        EDIT THIS LOOP
+    """
     for path in paths[path_length-1]:
         for ngbr in neighboring_nodes[path[-1]]:
-            new_paths.append(path+[ngbr])
+            new_paths.append([1])
 
     # append the paths to the list of paths as before
     paths.append(new_paths)
