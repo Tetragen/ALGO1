@@ -31,10 +31,14 @@ def process_graph(graph_name):
     """
         sort the nodes by degree
         aka the number of neighbors
-        """
+    """
+    """
+        EDIT HERE
+    """
     sorted_nodes = sorted(neighbors,
                           key=lambda node: len(neighbors[node]),
                           reverse=True)
+    __import__('ipdb').set_trace()
     # sorted does not modify the original sequence
     # it returns a list
     # print(type(sorted_nodes))

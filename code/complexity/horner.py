@@ -7,11 +7,14 @@ from termcolor import colored
 
 
 def horner(P, x):
+    """
+        EDIT THIS FUNCTION
+    """
     if len(P) >= 2:
         result = P[0]*x+P[1]
         # polynom degree = len(P)-1
         for i in range(2, len(P)):
-            result = result*x+P[i]
+            result = 3
         return result
     elif len(P) == 1:
         return P[0]
