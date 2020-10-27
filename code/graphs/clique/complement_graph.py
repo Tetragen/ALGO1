@@ -25,8 +25,8 @@ for edge in edges:
 # build all edges
 all_edges = [set([i, j]) for i in range(1, len(nodes)+1) for j in range(i+1, len(nodes)+1)]
 
-# build complement
+# choose complement edges
 complementary_edges = [edge for edge in all_edges if edge not in edges]
 
-# plot initial graph
+# plot complement graph
 plot_graph(complementary_edges, "complement graph")
