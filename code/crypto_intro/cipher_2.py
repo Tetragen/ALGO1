@@ -19,7 +19,10 @@ def cipher_2(message, key_size):
         ascii_index = ord(character)
         if ascii_index > 64 and ascii_index < 91:
             # change the unicode code point
-            new_index = (ascii_index - 65 + key[subkey]) % 26 + 65
+            """
+                EDIT HERE
+            """
+            new_index = (ascii_index - 65) * 26 + 65
             # convert back to string
             crypted_message += chr(new_index)
             # change the subkey

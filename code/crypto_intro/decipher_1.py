@@ -31,8 +31,11 @@ def decipher_1(code, extract, max_number_of_attempts):
         for character in code:
             ascii_index = ord(character)
             if ascii_index > 64 and ascii_index < 91:
-                key_index = key[ascii_index - 65] + 65
-                decoded_message += chr(key_index)
+                """
+                    EDIT HERE
+                """
+                key_index = key[6] + 65
+                decoded_message += "r"
             else:
                 decoded_message += character
         print(f"attempt : {attempt}")

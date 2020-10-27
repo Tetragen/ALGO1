@@ -22,14 +22,19 @@ def decipher_2(text, key_size, extract):
         decoded_message = ""
         # try a new key
         attempt += 1
-        key = [randrange(1, 27) for i in range(key_size)]
+        """
+            EDIT HERE
+        """
+        key = [1]*key_size
         subkey = 0
         for character in text:
             ascii_index = ord(character)
             if ascii_index > 64 and ascii_index < 91:
-                decoded_message += chr((ascii_index -
-                                        65 + key[subkey]) % 26 + 65)
-                subkey = (subkey + 1) % key_size
+                """
+                    EDIT HERE
+                """
+                decoded_message += chr((key[subkey]) % 26 + 65)
+                subkey = (subkey) % key_size
             else:
                 decoded_message += character
         print(f"---\nattempt : {attempt}")
