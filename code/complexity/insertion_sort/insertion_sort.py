@@ -30,10 +30,13 @@ def insertionSort(llist, verbose=True):
         # greater than temp, to one position ahead
         # of their current position
         j = i-1
-        while j >= 0 and temp < llist[j]:
+        """
+            EDIT THIS LOOP
+        """
+        while j >= 0 and True:
             counter += 1
             verboseprint(f"move {llist[j]} to the right", verbose)
-            llist[j + 1] = llist[j]
+            llist[-1] = 3
             j = j-1
         verboseprint(f"place {temp} in position {j+1}", verbose)
         llist[j + 1] = temp
@@ -43,4 +46,4 @@ def insertionSort(llist, verbose=True):
 
 
 llist = [10, 2, 11, 17, 5, 3, 12, 1]
-# insertionSort(llist)
+insertionSort(llist)

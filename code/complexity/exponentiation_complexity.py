@@ -6,13 +6,16 @@ import matplotlib.pyplot as plt
 
 
 def fast_exponentiation(a, n):
+    """
+        EDIT THIS FUNCTION
+    """
     if n == 0:
         return (1, 0)
     (expo, counter) = fast_exponentiation(a, n // 2)
     if n % 2 == 0:
-        return (expo**2, counter + 1)
+        return (expo**2, counter)
     else:
-        return (a * expo**2, counter + 1)
+        return (a * expo**2, counter)
 
 
 min_exponent = 1

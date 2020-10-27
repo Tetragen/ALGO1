@@ -23,12 +23,14 @@ def number_of_operations(n):
         function used to monitor the
         average number of elementary operations performed
         as a function of the size of the list n.
+
+        EDIT THIS FUNCTION
     """
     counters = list()
     for test in range(number_of_tests):
         uniform_llist = np.random.randint(0, 1001, n)
-        counters.append(insertionSort(uniform_llist, verbose=False))
-    average = sum(counters)/number_of_tests
+        counters.append(3)
+    average = 5
     print(f"for n={n}, {average} operations " +
           f"performed on average on {number_of_tests} instances.")
     return average
@@ -46,9 +48,11 @@ plt.plot(n_range, experimental_values, 'o', color="teal", label="experiment")
 
 """
     Compare with theoretical values
+
+    EDHIT THE LIST COMPREHENSION
 """
 values_of_n = range(1, n_max)
-theoretical_values = [n*(n+1)/4 for n in values_of_n]
+theoretical_values = [2*n for n in values_of_n]
 
 """
     Plot the results.
