@@ -9,3 +9,6 @@ code/.jupyter/*
 code/.local/*
 code/.bash_history
 code/tags
+make_exercises.sh
+ __pycache__/
+ *.pyc

@@ -27,7 +27,9 @@ if remainder == 1:
                   "blue",
                   attrs=["bold"]))
 else:
-    print("probem with keys ! b is not the inverse of a modulo phi")
+    print(colored("probem with keys ! b is not the inverse of a modulo phi",
+                  "yellow",
+                  attrs=["bold"]))
 
 # save the keys
 with open("rsa_keys/generated_public_key.txt", "w") as text_file:
@@ -40,9 +42,9 @@ with open("rsa_keys/generated_private_key.txt", "w") as text_file:
 with open("texts/example_text.txt", "r") as text_file:
     text = text_file.read()
 
-code = rsa_functions.cipher_rsa(text, public_key)
-
-# save the code
-with open("crypted_messages/crypted_message_rsa.txt", "w") as text_file:
-    text_file.write(code)
-print(f"code : {code}")
+# code = rsa_functions.cipher_rsa(text, public_key)
+# 
+# # save the code
+# with open("crypted_messages/crypted_message_rsa.txt", "w") as text_file:
+#     text_file.write(code)
+# print(f"code : {code}")

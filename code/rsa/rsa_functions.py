@@ -21,8 +21,12 @@ def generate_rsa_keys(p, q):
     phi = (p - 1) * (q - 1)
     # find a such that a and phi are coprime
     # les entiers a et phi doivent etre premiers entre eux.
+    """
+        EDIT HERE
+    """
     a = randrange(1, phi)
-    while not math.gcd(a, phi) == 1:
+    while not a % 2 == 0:
+        print(a)
         a += 1 % phi
 
     # find b such that ab=1[phi]
@@ -132,7 +136,8 @@ def primary_decomposition(n):
                 q_test = n // p_test
                 # check if q_test is a primary number
                 if isPrime(q_test):
-                    print(f"decomposition in prime factors of {n} : {p_test} , {q_test}")
+                    print(
+                        f"decomposition in prime factors of {n} : {p_test} , {q_test}")
                     return p_test, q_test
     print('no decomposition in primary numbers found')
     # return 0 for convenience
