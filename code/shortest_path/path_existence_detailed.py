@@ -2,8 +2,9 @@
     Check if there is a path of a certain
     length to arrive to a destination
 """
+from termcolor import colored
 
-neighboring_cities = [[1, 3, 4],  # neighbors of 0
+neighboring_nodes = [[1, 3, 4],  # neighbors of 0
                       [0, 2, 3],  # neighbors of 1
                       [1, 5],	  # neighbors of 2
                       [0, 1, 5],  # neighbors of 3
@@ -16,7 +17,7 @@ def exists_path(destination, path_length, depth):
     if path_length == 0:
         exists = (destination == 0)
     else:
-        exists = any(exists_path(i, path_length - 1, depth+1) for i in neighboring_cities[destination])
+        exists = any(exists_path(i, path_length - 1, depth+1) for i in neighboring_nodes[destination])
     if exists:
         print(padding+f" destination {destination}, length {path_length}")
     return exists
@@ -24,9 +25,13 @@ def exists_path(destination, path_length, depth):
 
 def test_existence(destination, path_length):
     if exists_path(destination, path_length, 0):
-        print(f"there is a path of length {path_length} from 0 to {destination}\n")
+        print(colored(f"there is a path of length {path_length} from 0 to {destination}\n",
+                      "blue",
+                      attrs=["bold"]))
     else:
-        print(f"no path of length {path_length} from 0 to {destination}\n")
+        print(colored(f"no path of length {path_length} from 0 to {destination}\n",
+                      "blue",
+                      attrs=["bold"]))
 
 
 # test_existence(5, 5)

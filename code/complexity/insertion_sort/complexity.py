@@ -38,9 +38,9 @@ def number_of_operations(n):
     Compute the average number of operations
     for several values of n
 """
-n_max=200
-step=int(n_max/10)
-n_range=range(1, n_max, step)
+n_max = 200
+step = int(n_max/10)
+n_range = range(1, n_max, step)
 experimental_values = [number_of_operations(n) for n in n_range]
 plt.plot(n_range, experimental_values, 'o', color="teal", label="experiment")
 
@@ -48,7 +48,7 @@ plt.plot(n_range, experimental_values, 'o', color="teal", label="experiment")
     Compare with theoretical values
 """
 values_of_n = range(1, n_max)
-theoretical_values=[n*(n+1)/4 for n in values_of_n]
+theoretical_values = [n*(n+1)/4 for n in values_of_n]
 
 """
     Plot the results.

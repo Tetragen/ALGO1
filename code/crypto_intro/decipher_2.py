@@ -3,6 +3,7 @@ break the second ciphering solution
 """
 
 from random import randrange
+from termcolor import colored
 
 max_number_of_attempts = 10000
 
@@ -33,7 +34,7 @@ def decipher_2(text, key_size, extract):
                 decoded_message += character
         print(f"---\nattempt : {attempt}")
         print(f"key : {key}")
-        print(decoded_message)
+        print(colored(decoded_message, "green", attrs=["bold"]))
     if extract in decoded_message:
         print(f"success : key={key}")
     return decoded_message

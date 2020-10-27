@@ -25,7 +25,7 @@ x_step = np.arange(1, nmax, step)
 y_values = cumulative_distribution_function(x_step)
 
 plt.plot(x_step, y_values)
-plt.title("cumulative distribution function")
+plt.title(f"cumulative distribution function p={p:0.2e}")
 plt.ylabel("probability of finding key before number of attempts")
 plt.xlabel("number of attempts")
 plt.savefig("cumulative distribution function.pdf")

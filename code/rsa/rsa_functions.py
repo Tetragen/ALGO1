@@ -1,20 +1,23 @@
 """
-RSA : Rivest, Shamir, Adleman (1977)
-in this case, the public key is used to cipher the text and the
-private key is used to decipher the text. However this can
-depend on the situation.
+    Functions used to implement the simplification of RSA.
+
+    RSA : Rivest, Shamir, Adleman (1977)
+    in this case, the public key is used to cipher the text and the
+    private key is used to decipher the text. However this can
+    depend on the situation.
 """
 
 import math
 from random import randrange
+from termcolor import colored
 from itertools import count, islice
 
 
 def generate_rsa_keys(p, q):
     """
-                    Using two primary numbers p and q, generate the keys
+        Using two primary numbers p and q, generate the keys
     """
-    # find a
+    # find the number a
     phi = (p - 1) * (q - 1)
     # find a such that a and phi are coprime
     # les entiers a et phi doivent etre premiers entre eux.
@@ -36,7 +39,7 @@ def generate_rsa_keys(p, q):
 
 def cipher_rsa(text, public_key):
     """
-                    cipher a text with RSA algorithm
+        Cipher a text with RSA algorithm
     """
     print("cipher rsa")
     n = public_key[0]
@@ -45,7 +48,10 @@ def cipher_rsa(text, public_key):
     for character in text:
         ascii_index = ord(character)
         coded_index = ascii_index**a % n
-        print(character + f" ({ascii_index}) becomes {coded_index}")
+        print(colored(character + f" ({ascii_index})", "blue", attrs=["bold"]),
+              end="")
+        print(" becomes ", end="")
+        print(colored(coded_index, "blue", attrs=["bold"]))
         # we use a comma as a separator
         code += str(coded_index) + ','
     # remove the last comma
@@ -68,7 +74,9 @@ def decipher_rsa(code, public_key, private_key):
     for coded_index in code_list:
         decoded_index = coded_index**b % n
         decoded_letter = chr(decoded_index)
-        print(f"{coded_index} becomes {decoded_letter}")
+        print(colored(coded_index, "blue", attrs=["bold"]), end="")
+        print(" becomes ", end="")
+        print(colored(decoded_letter, "blue", attrs=["bold"]))
         decoded_text += decoded_letter
     return(decoded_text)
 
@@ -76,7 +84,9 @@ def decipher_rsa(code, public_key, private_key):
 def find_private_key(public_key):
     """
             find the private key as a function
-            of the public key n,a to break the RSA
+            of the public key n,a to break the RSA.
+            It is sufficient to decompose n as a product of 2 prime numbers.
+            n is known to be a composite number (not prime).
     """
     n = public_key[0]
     a = public_key[1]
@@ -97,11 +107,17 @@ def find_private_key(public_key):
         return b, phi, p, q
     else:
         print('no primary decomposition found for n')
-        # retur for convenience
+        # return for convenience
         return 0, 0, 0, 0
 
 
 def primary_decomposition(n):
+    """
+        Decompose n in a product of prime numbers.
+        Very importantly, there is a unique decomposition
+        possible with prime numbers, with respect to the order 
+        of the product (pq=qp). This comes from the Gauss lemma.
+    """
     # there is no need for testing all the values below n
     # (see course)
     # print('searching primary decomposition of ' + str(n))

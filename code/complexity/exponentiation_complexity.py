@@ -28,10 +28,10 @@ for exponent in exponents:
     times.append(counter)
 
 title = 'Fast exponentiation complexity'
-file = 'fast_exp_complexity.pdf'
+filename = 'fast_exp_complexity.pdf'
 plt.plot(exponents, times, 'o')
 plt.xlabel('Exponent')
 plt.ylabel('Number of multiplications')
 plt.title(title)
-plt.savefig('images/' + file)
+plt.savefig('images/' + filename)
 plt.close()

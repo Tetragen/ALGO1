@@ -4,7 +4,7 @@
 
 import pickle
 import os
-from plot_graph import plot_subset
+from plot_graph.plot_graph import plot_subset
 from read_params import read_params
 
 
@@ -87,10 +87,14 @@ def process_graph(graph_name):
                         method="bis")
 
 
+
 process_graph("exercise")
+
 # process_graph("custom")
 # params=read_params()
 # n_nodes =params[0]
 # max_successors = params[1]
 # parameters = f"n={n_nodes}_maxs={max_successors}"
 # process_graph(parameters)
+
+# process_graph("custom")

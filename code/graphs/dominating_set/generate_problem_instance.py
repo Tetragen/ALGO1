@@ -1,7 +1,7 @@
 import pickle
 import os
 import random
-from plot_graph import plot_initial_graph
+from plot_graph.plot_graph import plot_initial_graph
 from read_params import read_params
 
 

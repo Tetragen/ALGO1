@@ -1,4 +1,6 @@
 numpy
+ipdb
 networkx
 numpy
 matplotlib
+termcolor

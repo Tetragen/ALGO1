@@ -1,8 +1,8 @@
 """
-second crypting method
+    second ciphering method
 """
-
 from random import randrange
+from termcolor import colored
 
 
 def cipher_2(message, key_size):
@@ -31,4 +31,6 @@ def cipher_2(message, key_size):
     return crypted_message
 
 
-print("coded message : "+cipher_2("ALGORITHM COURSE", 3))
+print("coded message : "+colored(cipher_2("ALGORITHM COURSE", 3),
+                                 "green",
+                                 attrs=["bold"]))

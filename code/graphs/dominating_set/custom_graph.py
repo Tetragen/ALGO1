@@ -1,6 +1,6 @@
 import pickle
 import os
-from plot_graph import plot_initial_graph
+from plot_graph.plot_graph import plot_initial_graph
 
 edges = [[0, 1],
          [0, 2],
@@ -22,9 +22,14 @@ edges = [[0, 1],
          [0, 7],
          [7, 8],
          [7, 9],
+         [7, 14],
+         [7, 15],
+         [7, 16],
+         [7, 17],
+         [7, 18],
          [7, 10]]
 
-nodes = [node for node in range(14)]
+nodes = [node for node in range(19)]
 
 successors = dict()
 for node in nodes:

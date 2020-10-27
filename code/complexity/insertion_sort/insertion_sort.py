@@ -43,4 +43,4 @@ def insertionSort(llist, verbose=True):
 
 
 llist = [10, 2, 11, 17, 5, 3, 12, 1]
-insertionSort(llist)
+# insertionSort(llist)

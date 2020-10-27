@@ -4,7 +4,6 @@
 
 import matplotlib.pyplot as plt
 import os
-# import math
 from time import time
 
 min_size = 1
@@ -26,7 +25,7 @@ for size in sizes:
 # use the logarithm
 # log_sizes = [math.log(size) for size in sizes]
 
-title = 'Complexity of a sequence of multiplications'
+title = 'Computation time of a sequence of multiplications'
 filename = 'linear.pdf'
 # plt.plot(log_sizes, times, 'o')
 plt.plot(sizes, times, 'o')

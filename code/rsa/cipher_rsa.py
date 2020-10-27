@@ -1,22 +1,31 @@
+"""
+    script that uses a simplification of rsa
+    in order to generate keys from a couple of prime numbers 
+    and cipher a short text file.
+"""
 import rsa_functions
+from termcolor import colored
 
 # prime numbers used to generate the keys
 # it is important to use prime numbers
 p, q = 17, 11
-n = p * q
-phi = (p - 1) * (q - 1)
 
 a, b = rsa_functions.generate_rsa_keys(p, q)
+
+n = p * q
+phi = (p - 1) * (q - 1)
 
 public_key = (n, a)
 private_key = b
 print(f"public key : {public_key}")
 print(f"private key : {private_key}")
 
-remainder = a * b % phi
 # check our keys
+remainder = a * b % phi
 if remainder == 1:
-    print("keys are ok : b is the inverse of a modulo phi")
+    print(colored("keys are ok : b is the inverse of a modulo phi",
+                  "blue",
+                  attrs=["bold"]))
 else:
     print("probem with keys ! b is not the inverse of a modulo phi")
 

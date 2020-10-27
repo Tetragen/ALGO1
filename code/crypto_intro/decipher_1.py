@@ -7,7 +7,6 @@ import time
 import os
 import cProfile
 import sys
-# from datetime import datetime
 # from math import factorial
 
 max_number_of_attempts = 100
@@ -51,5 +50,4 @@ total_time = time.time() - time_before
 print(f"---\ntotal time {1e3*total_time} ms")
 
 time_per_key = total_time/max_number_of_attempts
-print(f"time per key {1e3*time_per_key} ms")
-
+print(f"time per key {time_per_key} s")

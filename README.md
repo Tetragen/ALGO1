@@ -14,8 +14,8 @@ We can use the convenient jupyter notebooks during the course.
 This will allow us to run scripts in the browser.
 
 ### Installation
-You need to have docker installer.
-To install docker, follow the instructions here:
+You need to have docker installed.
+To install docker, please follow the instructions here:
 https://docs.docker.com/get-docker/
 The dockerfile sets the installation up.
 

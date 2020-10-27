@@ -2,6 +2,7 @@
 Ciphering a string with a random key
 """
 from random import shuffle
+from termcolor import colored
 
 
 def cipher(message):
@@ -23,7 +24,9 @@ def cipher(message):
             # the chr function returns the unicode string for a given integer
             new_letter = chr(new_index)
             crypted_message += new_letter
-            print(character + " is changed to " + new_letter)
+            print(colored(character , "green", attrs=["bold"]), end="")
+            print(" is changed to ", end="")
+            print(colored(new_letter , "green", attrs=["bold"]))
         else:
             # in this example we only take the uppercase letters into account
             crypted_message += character
