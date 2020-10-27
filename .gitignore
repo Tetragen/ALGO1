@@ -1,4 +1,5 @@
 .DS_Store
 *.swp
 *.swo
-slides/*
+code/.local*
+code/.ipython*
