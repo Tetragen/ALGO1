@@ -28,7 +28,7 @@ def test_list_target(values, target_value):
                       "green",
                       attrs=["bold"]))
     else:
-        print(colored(f"{values} noes NOT contain a sublist of value {target_value}",
+        print(colored(f"{values} does NOT contain a sublist of value {target_value}",
                       "yellow",
                       attrs=["bold"]))
 
