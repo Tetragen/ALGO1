@@ -25,15 +25,14 @@ def process_graph(graph_name):
 
     # print(neighbors)
     # size of the graph (number of nodes)
+    nodes = neighbors.keys()
     n_nodes = len(neighbors)
 
     """
         sort the nodes by degree
         aka the number of neighbors
         """
-    sorted_nodes = sorted(neighbors,
-                          key=lambda node: len(neighbors[node]),
-                          reverse=True)
+    sorted_nodes = list(nodes)
     # sorted does not modify the original sequence
     # it returns a list
     # print(type(sorted_nodes))
@@ -63,18 +62,18 @@ def process_graph(graph_name):
         # stop if the set is dominating
         if len(dominated_nodes) < n_nodes:
             # update our selected subset
-            selected_nodes.append(node)
-            print(f"\nadd {node} to the dominating set")
+            # selected_nodes.append(node)
+            # print(f"\nadd {node} to the dominating set")
             # update the list of dominated nodes
-            if node not in dominated_nodes:
-                dominated_nodes.append(node)
-            print(f"add {node} to the list of dominated nodes")
+            # if node not in dominated_nodes:
+            #     dominated_nodes.append(node)
+            # print(f"add {node} to the list of dominated nodes")
             # print('neighbors : ')
-            for neighbor in neighbors[node]:
-                if neighbor not in dominated_nodes:
+            # for neighbor in neighbors[node]:
+            #     if neighbor not in dominated_nodes:
                     # update the list of not dominated nodes
-                    dominated_nodes.append(neighbor)
-                    print(f"add {neighbor} to the list of dominated nodes")
+            #         dominated_nodes.append(neighbor)
+            #         print(f"add {neighbor} to the list of dominated nodes")
             # see how many more nodes we have to dominate
             print(
                 f"still have to dominate {n_nodes-len(dominated_nodes)} nodes")

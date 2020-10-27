@@ -52,6 +52,9 @@ def process_graph(graph_name):
         """
             function used to select a new node in the algorithm
         """
+        """
+            EDIT THIS FUNCTION
+        """
         # built the reduced graph
         # consisting in the original graph deprived from dominated nodes
         reduced_graph = [node for node in nodes if node not in dominated_nodes]
@@ -59,11 +62,9 @@ def process_graph(graph_name):
         # build a new dictionary containing adjecency relations in that graph
         # we need to edit the dictionary of neighbors first.
         neighbors_reduced=neighbors.copy()
-        for item in neighbors_reduced:
-            for ngbr in neighbors_reduced[item]:
-                if ngbr in dominated_nodes:
-                    print(f"remove {ngbr} from neighbors of {item}")
-                    neighbors_reduced[item].remove(ngbr)
+        """
+            ADD LINES HERE
+        """
 
         neighbors_in_reduced_graph={node:neighbors_reduced[node] for node in
                                     reduced_graph}
@@ -103,7 +104,7 @@ def process_graph(graph_name):
                     method="ter")
 
 
-process_graph("exercice")
+process_graph("exercise")
 
 # params=read_params()
 # n_nodes =params[0]
