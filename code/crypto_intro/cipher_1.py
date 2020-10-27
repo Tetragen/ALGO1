@@ -10,7 +10,9 @@ def cipher(message):
     # alphabet
     key = [i for i in range(26)]
     # shuffle the key in order to have a random permutation
-    shuffle(key)
+    """
+        ADD LINE(S) HERE
+    """
     print(f"key : {key}")
     # crypted_message
     crypted_message = ""
@@ -20,9 +22,13 @@ def cipher(message):
         ascii_index = ord(character)
         if ascii_index > 64 and ascii_index < 91:
             # use the key to change the ascii index
-            new_index = key[ascii_index - 65] + 65
+            """
+                EDIT HERE
+            """
+            new_index = key[4] + 65
             # the chr function returns the unicode string for a given integer
             new_letter = chr(new_index)
+            # in python you can concatenante strings with +
             crypted_message += new_letter
             print(colored(character , "green", attrs=["bold"]), end="")
             print(" is changed to ", end="")
