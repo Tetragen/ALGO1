@@ -76,8 +76,11 @@ def decipher_rsa(code, public_key, private_key):
     code_list = [int(x) for x in code_str]
     decoded_text = ''
     for coded_index in code_list:
-        decoded_index = coded_index**b % n
-        decoded_letter = chr(decoded_index)
+        """
+            EDIT HERE
+        """
+        decoded_index = 73
+        decoded_letter = "y"
         print(colored(coded_index, "blue", attrs=["bold"]), end="")
         print(" becomes ", end="")
         print(colored(decoded_letter, "blue", attrs=["bold"]))
@@ -99,7 +102,11 @@ def find_private_key(public_key):
     # if yes, continue
     if not p == 0:
         # find b as before
-        phi = (p - 1) * (q - 1)
+        """
+            EDIT HERE and 
+            EDIT primary decomposition()
+        """
+        phi = 7
         # b is the inverse of a modulo phi
         # extended euclid algorithm (as before)
         r, b, v, r2, b2, v2 = a, 1, 0, phi, 0, 1
@@ -125,7 +132,7 @@ def primary_decomposition(n):
     # there is no need for testing all the values below n
     # (see course)
     # print('searching primary decomposition of ' + str(n))
-    for p_test in range(2, int(math.sqrt(n) + 1)):
+    for p_test in range(2, 8):
         # check the remainder of
         # n/p_test to see if p_test divides n
         r_test = n % p_test
