@@ -7,3 +7,5 @@ code/.ipynb_checkpoints/*
 code/.ipython/*
 code/.jupyter/*
 code/.local/*
+code/.bash_history
+code/tags
