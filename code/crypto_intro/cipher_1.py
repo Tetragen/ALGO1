@@ -23,6 +23,7 @@ def cipher(message):
             new_index = key[ascii_index - 65] + 65
             # the chr function returns the unicode string for a given integer
             new_letter = chr(new_index)
+            # in python you can concatenante strings with +
             crypted_message += new_letter
             print(colored(character , "green", attrs=["bold"]), end="")
             print(" is changed to ", end="")
