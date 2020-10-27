@@ -1,7 +1,8 @@
 .DS_Store
 *.swp
 *.swo
-./code/.local*
+./code/.local/share/*
+./code/.cache/*
 ./code/.ipython*
-./code/.jupyter*
-./code/.ipynb_checkpoints*
+./code/.jupyter/*
+./code/.ipynb_checkpoints/*
