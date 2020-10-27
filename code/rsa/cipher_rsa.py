@@ -27,7 +27,9 @@ if remainder == 1:
                   "blue",
                   attrs=["bold"]))
 else:
-    print("probem with keys ! b is not the inverse of a modulo phi")
+    print(colored("probem with keys ! b is not the inverse of a modulo phi",
+                  "yellow",
+                  attrs=["bold"]))
 
 # save the keys
 with open("rsa_keys/generated_public_key.txt", "w") as text_file:
