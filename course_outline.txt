@@ -13,8 +13,11 @@ day 2
 measuring complexities
 computing complexities
 big O notations and aymptotic study
+mathematical induction
 insertion sort
 horner algorithm
 dominating set problem
+coloring problem
+independent set problem
 hierarchy between problems
 classes of complexity

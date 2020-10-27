@@ -1,19 +1,28 @@
+"""
+    Use the Horner algorith in order to evaluate polynoms
+"""
+
 import numpy as np
+from termcolor import colored
 
 
-def horner(P, a):
+def horner(P, x):
     if len(P) >= 2:
-        result = P[0]*a+P[1]
+        result = P[0]*x+P[1]
         # polynom degree = len(P)-1
         for i in range(2, len(P)):
-            result = result*a+P[i]
+            result = result*x+P[i]
         return result
     elif len(P) == 1:
         return P[0]
     else:
         print('error : polynom contains nothing')
 
-# Test___________________________________________
+
+"""
+    Testing the method by comparing it to
+    numpy functions
+"""
 
 
 P1 = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 7189730]
@@ -32,17 +41,17 @@ Polynoms_to_test = [P1, P2, P3, P4]
 floats_to_test = [a1, a2, a3, a4]
 
 print("============================================================")
-print("Calculs de polynomes en un reel")
+print("Compute values of polynomial functions")
 print("============================================================")
 for i in range(len(Polynoms_to_test)):
     horner_eval = horner(Polynoms_to_test[i], floats_to_test[i])
     np_eval = np.polyval(Polynoms_to_test[i], floats_to_test[i])
-    print("------------------------------------------------------------")
-    print("Coeffs : {}".format(Polynoms_to_test[i]))
-    print("Float : {}".format(floats_to_test[i]))
-    print("Horner : {}".format(horner_eval))
-    print("Numpy : {}".format(np_eval))
-    print(horner_eval == np_eval)
-
-
-# End of Test_____________________________________
+    print("\n------------------------------------------------------------")
+    print(f"Coefficient of the polynom : {Polynoms_to_test[i]}")
+    print(f"Float : {floats_to_test[i]}")
+    print(f"Horner : {horner_eval}")
+    print(f"Numpy : {np_eval}")
+    if horner_eval==np_eval:
+        print(colored("values are identical", "blue", attrs=["bold"]))
+    else:
+        print(colored("values differ : problem with the method", "yellow", attrs=["bold"]))
