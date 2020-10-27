@@ -132,6 +132,9 @@ def primary_decomposition(n):
     # there is no need for testing all the values below n
     # (see course)
     # print('searching primary decomposition of ' + str(n))
+    """
+        EDIT HERE
+    """
     for p_test in range(2, 8):
         # check the remainder of
         # n/p_test to see if p_test divides n
