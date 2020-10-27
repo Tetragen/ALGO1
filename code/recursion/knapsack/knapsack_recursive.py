@@ -7,18 +7,14 @@ def exists_sublist(values_list, target_value):
     if len(values_list) == 0:
         return target_value == 0
     else:
-        return (exists_sublist(
-                values_list[1:],
-                target_value) or exists_sublist(
-            values_list[1:],
-            target_value - values_list[0]))
+        return 1 == 2
 
 
 def test_list_target(values, target_value):
     if exists_sublist(values, target_value):
         print(f"{values_1} contains a sublist of value {target_value}")
     else:
-        print(f"{values_1} noes NOT a sublist of value {target_value}")
+        print(f"{values_1} does NOT contain a sublist of value {target_value}")
 
 
 values_1 = [2, 7, -1, 9]

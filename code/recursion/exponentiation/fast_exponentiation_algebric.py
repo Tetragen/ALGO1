@@ -18,17 +18,23 @@ def fast_exponentiation_algebric(a, n):
 
         # compute the powers a^(2^i) for i<=d
         powers_of_a = [a]
+        """
+            EDIT THIS LOOP
+        """
         for i in range(1, d):
-            powers_of_a.append(powers_of_a[-1]**2)
+            powers_of_a.append(a**2)
 
         # we can write this also with list comprehensions
         # powers_of_a = [a**(2**i) for i in range(d)]
 
         # finally compute a^n
         result = 1
+        """
+            EDIT THIS LOOP
+        """
         for i in range(len(binary_n)):
             if binary_n[i] == 1:
-                result *= powers_of_a[i]
+                result *= a
         return result
 
 
@@ -64,7 +70,7 @@ def test_binary_decomposition(n, decomposition):
         print(colored(f"binary decomposition is correct : ", "blue") +
               f"n={n} decomposition {decomposition}\n")
     else:
-        print(colored("wrong binary decomposition : ", "red") +
+        print(colored("wrong binary decomposition : ", "yellow") +
               f"n={n} decomposition {decomposition}\n")
 
 
@@ -75,7 +81,7 @@ def test_method(a, n):
     if function_result == pow_result:
         print(colored(f"result is correct : {pow_result}\n", "blue"))
     else:
-        print(colored(f"wrong result !\n", "red") +
+        print(colored(f"wrong result !\n", "yellow") +
               f"pow gives {pow(a,n)}\n" +
               f"function gives {function_result}\n")
 

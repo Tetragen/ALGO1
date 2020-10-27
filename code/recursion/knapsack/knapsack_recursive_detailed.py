@@ -17,10 +17,7 @@ def exists_sublist(values_list, target_value, depth):
             print(colored("go back\n", "blue", attrs=["bold"]))
         return target_value == 0
     else:
-        return (exists_sublist(values_list[1:], target_value, depth) or
-                exists_sublist(values_list[1:], target_value - values_list[0],
-                               depth))
-
+        return 1 == 2
 
 def test_list_target(values, target_value):
     if exists_sublist(values, target_value, 0):
@@ -28,7 +25,7 @@ def test_list_target(values, target_value):
                       "green",
                       attrs=["bold"]))
     else:
-        print(colored(f"{values} noes NOT contain a sublist of value {target_value}",
+        print(colored(f"{values} does NOT contain a sublist of value {target_value}",
                       "yellow",
                       attrs=["bold"]))
 

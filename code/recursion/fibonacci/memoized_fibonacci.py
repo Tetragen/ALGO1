@@ -11,8 +11,12 @@ def memo_fibonacci(n):
         if n == 1 or n == 2:
             intermediate_values[n] = 1
         else:
-            intermediate_values[n] = memo_fibonacci(n - 1) + memo_fibonacci(n - 2)
+            intermediate_values[n] = memo_fibonacci(
+                n//2) + memo_fibonacci(n//3)
     return intermediate_values[n]
 
 
+"""
+    Write your own test
+"""
 print(memo_fibonacci(25))
